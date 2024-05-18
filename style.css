@@ -129,8 +129,8 @@ section.logo-site .interface{
 }
 
 
-section.logo-site img{
-    width: 48%;
+section.logo-site .interface img{
+    width: 700px;
     min-width: 35%;
     display: block;
     margin-left: auto;
@@ -138,3 +138,26 @@ section.logo-site img{
     padding: auto auto;
 }
 
+section.logo-site .plantas .esquerda img{
+    width: 15%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+section.logo-site .plantas .direita img{
+    width: 15%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+/* SOBRE SITE */
+
+.sobre-site{
+    height: 100vh;
+}
