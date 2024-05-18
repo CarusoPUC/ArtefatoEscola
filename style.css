@@ -22,7 +22,7 @@ body{
 
 ::-webkit-scrollbar-thumb{
     height: 20px;
-    background-color: #68b04d;
+    background-color: #a8c654;
 }
 
 .interface{
@@ -120,33 +120,34 @@ section.logo-site{
     align-items: center;
     align-content: center;
     height: 100vh;
-    background-color: #68b04d;
+    background-color: #a8c654;
 }
 
 section.logo-site .interface{
     align-items: center;
     align-content: center;
+    height: 45%;
 }
 
 
 section.logo-site .interface img{
-    width: 700px;
-    min-width: 35%;
+    height: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding: auto auto;
 }
 
+
 section.logo-site .plantas .esquerda img{
-    width: 15%;
+    height: 30%;
     position: absolute;
     left: 0;
     bottom: 0;
 }
 
 section.logo-site .plantas .direita img{
-    width: 15%;
+    height: 30%;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -158,6 +159,126 @@ section.logo-site .plantas .direita img{
 
 /* SOBRE SITE */
 
+.sobre-site > .interface{
+    margin-left: 0vh;
+    padding: 0;
+}
+
 .sobre-site{
     height: 100vh;
+    width: 100%;
+    padding: 0% 0%;
+    position: relative;
+    overflow: hidden;
+}
+
+.sobre-site > img{
+    width: 700px;
+    position: absolute;
+    height: fit-content;
+    bottom: -25vh;
+    float: right;
+    right: -15vh;
+    display: block;
+    filter: brightness(0) saturate(100%) invert(32%) sepia(5%) saturate(3671%) hue-rotate(119deg) brightness(98%) contrast(83%) opacity(0.2);
+    transform: rotate(2deg);
+}
+
+.imagemfundo > img{
+    width: 600px;
+
+}
+
+.sobre{
+    width: 100%;
+    background-color: rgb(50, 100, 91, 0.25);
+    height: 4em;
+    padding: 0% auto;
+    margin-top: 9%;
+    align-content: center;
+    text-align: center;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.sobre .texto-sobre{
+    position: relative;
+    font-weight: 800;
+    font-size: 38px;
+    color: #32645B;
+    left: -20.5vh;
+    top: 9px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sobre .sobre-img{
+    height: 35em;
+    position: relative;
+    left: -20.5vh;
+    border-radius: 10% 20% / 10% 40%;
+    border: 3px solid #32645B;
+}
+
+.sobre .texto-sobre p{
+    position: absolute;
+    width: 480px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align:start;
+}
+
+.conteudo-texto{
+    background-color: #a8c654;
+}
+
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #1E1E1E;
+    position: relative;
+}
+
+footer > img{
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    left: 5vh;
+    transform: translate(0,-50%);
+}
+
+footer > span{
+    color: white;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+.contatos-footer{
+    position: absolute;
+    top:50%;
+    transform: translate(0, -50%);
+    right: 8vh;
+    margin: auto auto;
+}
+
+.contatos-footer img{
+    width: 32px;
+    height: 32px;
+    filter: invert(100%) sepia(46%) saturate(2%) hue-rotate(23deg) brightness(110%) contrast(101%);
+    margin: auto 10px;
+}
+
+.contatos-footer img:hover{
+    transform: scale(1.10);
+    filter: invert(86%) sepia(7%) saturate(3362%) hue-rotate(25deg) brightness(93%) contrast(76%);
 }
