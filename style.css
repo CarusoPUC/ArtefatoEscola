@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    height: 100vh;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    overflow: overlay;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+    background-color: #1E1E1E;
+  }
+
+::-webkit-scrollbar-thumb{
+    height: 20px;
+    background-color: #68b04d;
+}
+
+.interface{
+    margin: 0 auto;
+    margin-left: 8vh;
+    padding: 2vh 0%;
+}
+
+.flex{
+    display: flex;
+}
+
+/* Header */
+
+header{
+    padding: 0px 0%;
+    position: absolute;
+    width: 100%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+header a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #a8c654;
+    transform: scale(1.10);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+
+header nav.menu-desktop{
+    overflow: hidden;
+    vertical-align: middle;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 3vh;
+}
+
+.contatos{
+    height: 32px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 8vh;
+    margin: auto;
+    gap: 300px;
+}
+
+.contatos img{
+    width: 32px;
+    height: 32px;
+    filter: invert(100%) sepia(46%) saturate(2%) hue-rotate(23deg) brightness(110%) contrast(101%);
+    margin: auto 10px;
+}
+
+.contatos img:hover{
+    transform: scale(1.10);
+    filter: invert(86%) sepia(7%) saturate(3362%) hue-rotate(25deg) brightness(93%) contrast(76%);
+}
+
+header .logo{
+    width: 128px;
+    height: 128px;
+    padding: 0 0;
+}
+
+
+
+/* LOGO SITE */
+
+section.logo-site{
+    padding: 170px; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/videoplayback.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    background-color: #68b04d;
+}
+
+section.logo-site .interface{
+    align-items: center;
+    align-content: center;
+}
+
+
+section.logo-site img{
+    width: 48%;
+    min-width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto auto;
+}
+
