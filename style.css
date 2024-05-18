@@ -194,7 +194,7 @@ section.logo-site .plantas .direita img{
     background-color: rgb(50, 100, 91, 0.25);
     height: 4em;
     padding: 0% auto;
-    margin-top: 9%;
+    margin-top: 8%;
     align-content: center;
     text-align: center;
     position: absolute;
@@ -213,11 +213,11 @@ section.logo-site .plantas .direita img{
     top: 9px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 25px;
 }
 
 .sobre .sobre-img{
-    height: 35em;
+    height: 39em;
     position: relative;
     left: -20.5vh;
     border-radius: 20% 5% / 20% 5%;
@@ -226,14 +226,37 @@ section.logo-site .plantas .direita img{
 
 .sobre .texto-sobre p{
     position: absolute;
-    width: 480px;
-    font-size: 20px;
+    width: 500px;
+    font-size: 19px;
     font-weight: 500;
     text-align:start;
 }
 
-.sobre .texto-sobre > span{
-    
+.sobre .texto-sobre p > span{
+    width: 500px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align:start;
+}
+
+.contatonum{
+    margin-top: -45px;
+}
+
+.horario{
+    margin-top: -25px;
+}
+
+.localizacao{
+    margin-top: -5px;
+}
+
+.cnpjrodape{
+    margin-top: 45px;
+}
+
+.desenv{
+    margin-top: 85px;
 }
 
 .conteudo-texto{
