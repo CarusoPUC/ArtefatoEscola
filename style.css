@@ -16,12 +16,14 @@ body{
 }
 
 ::-webkit-scrollbar {
-    width: 2px;
+    width: 8px;
     background-color: #1E1E1E;
+    transition: width 0.3s ease;
   }
 
 ::-webkit-scrollbar-thumb{
     height: 20px;
+    width: 30px;
     background-color: #a8c654;
 }
 
@@ -131,7 +133,8 @@ section.logo-site .interface{
 
 
 section.logo-site .interface img{
-    height: 100%;
+    height: 25vh;
+    margin-top: -2vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -197,7 +200,16 @@ section.logo-site .plantas .direita img{
     display: flex;
     justify-content: center;
     gap: 30px;
+}
 
+.sobrecentro{
+    width: 150vh;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    gap: 20px;
 }
 
 .sobre .texto-sobre{
@@ -205,7 +217,6 @@ section.logo-site .plantas .direita img{
     font-weight: 800;
     font-size: 2.8vw;
     color: #32645B;
-    left: -20.5vh;
     top: 9px;
     display: flex;
     flex-direction: column;
@@ -215,22 +226,21 @@ section.logo-site .plantas .direita img{
 .sobre .sobre-img{
     height: 70vh;
     position: relative;
-    left: -20.5vh;
     border-radius: 20% 5% / 20% 5%;
     border: 3px solid #32645B;
 }
 
 .sobre .texto-sobre p{
     position: absolute;
-    width: 500px;
-    font-size: 1.09vw;
+    width: 75vh;
+    font-size: 2.247vh;
     font-weight: 500;
     text-align:start;
 }
 
 .sobre .texto-sobre p > span{
-    width: 500px;
-    font-size: 1.3vw;
+    width: 75vh;
+    font-size: 2.7vh;
     font-weight: 700;
     text-align:start;
 }
@@ -244,6 +254,7 @@ footer{
     height: 24vh;
     background-color: #1E1E1E;
     position: relative;
+    font-size: 2vh;
 }
 
 footer > img{
