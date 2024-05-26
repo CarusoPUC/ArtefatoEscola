@@ -376,7 +376,7 @@ section.cards-cursos{
     align-self: center;
     justify-items: center;
     justify-content: space-between;
-    gap: 6vh 0vh;
+    gap: 6vh 1vh;
 }
 
 .cards-cursos .curso{
