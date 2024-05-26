@@ -37,6 +37,12 @@ body{
     display: flex;
 }
 
+.selecionado{
+    color: #a8c654;
+}
+
+/*************** HOME ****************/
+
 /* Header */
 
 header{
@@ -316,4 +322,187 @@ footer > span{
 
 .conteudo-texto{
     background-color: #a8c654;
+}
+
+
+/*************** Cursos ****************/
+
+/* LOGO CURSOS */
+
+section.logo-cursos{
+    padding: 170px; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/cursosimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    align-content: center;
+    height: 75vh;
+    background-color: #a8c654;
+    background-position: 0% 71%;
+    border-bottom: 10px solid black;
+}
+
+section.logo-cursos .interface{
+    align-items: center;
+    align-content: center;
+    height: 45%;
+    margin: auto;
+}
+
+section.logo-cursos .interface p{
+    color: white;
+    text-align: center;
+    font-size: 18vh;
+    font-weight: 700;
+}
+
+
+/* CARD SECTION */
+
+section.cards-cursos{
+    margin: 10vh 0;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto; 
+    align-items: center;
+    align-self: center;
+    justify-items: center;
+    justify-content: space-between;
+    row-gap: 10vh;
+}
+
+.cards-cursos .curso{
+    height: 55vh;
+    width: 40vh;
+    background-color: #32645B;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0%;
+    transition: 6s;
+    position: relative;
+}
+
+.cards-cursos .curso.cursocima{
+    background-color: #a8c654;
+    border-radius: 12% 25% / 12% 25%;
+    border: 6px solid #1E1E1E;
+}
+
+.cards-cursos .curso.cursoabaixo{
+    background-color: #a8c654;
+    border-radius: 25% 12% / 25% 12%;
+    border: 6px solid #1E1E1E;
+}
+
+.curso1{
+    background-image: url(images/cursosimg.jpg);
+}
+
+.curso1:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/cursosimg.jpg);
+}
+
+.curso2{
+    background-image: url(images/cursosimg2.jpg);
+}
+
+.curso2:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/cursosimg2.jpg);
+}
+
+.curso.curso3{
+    background-image: url(images/cursosimg3.jpg);
+}
+
+.curso3:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/cursosimg3.jpg);
+}
+
+.curso.curso4{
+    background-image: url(images/cursosimg4.png);
+}
+
+.curso4:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/cursosimg4.png);
+}
+
+.curso.curso5{
+    background-image: url(images/cursosimg5.jpg);
+}
+
+.curso5:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/cursosimg5.jpg);
+}
+
+.curso.curso6{
+    background-position: 37% 0%;
+    background-image: url(images/cursosimg6.png);
+}
+
+.curso6:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/cursosimg6.png);
+}
+
+.curso.curso7{
+    background-position: 35.5% 0%;
+    background-image: url(images/cursosimg7.jpg);
+}
+
+.curso7:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/cursosimg7.jpg);
+}
+
+.curso.curso8{
+    background-image: url(images/cursosimg8.png);
+}
+
+.curso8:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/cursosimg8.png);
+}
+
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 101%;
+    height: 101%;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    border-radius: 12% 25% / 12% 25%;
+    justify-content: center;
+    font: 24px;
+    font-weight: 560;
+    color: white;
+    border: none;
+    opacity: 0;
+    transition: .3s;
+    font-size: 4vh;
+    text-align: center;
+    padding: 1vh;
+}
+.overlay:hover{
+    opacity: 100%;
+}
+
+.overlay button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    background-color: #32645B;
+    color: white;
+    height: 5vh;
+    width: 12vh;
+    font-size: 2vh;
+    font-weight: 500;
+    border-radius: 5%;
+}
+.overlay button:active{
+    background-color: #1E1E1E;
+
 }
