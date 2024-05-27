@@ -367,10 +367,10 @@ section.logo-cursos .interface p{
 /* CARD SECTION */
 
 section.cards-cursos{
-    margin: 10vh 0;
+    margin: 10vh 6vh;
     height: fit-content;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(45vh, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(40vh, 1fr));
     grid-template-rows: auto;
     align-items: center;
     align-self: center;
@@ -384,7 +384,7 @@ section.cards-cursos{
     max-width: 45vh; /* Max width to maintain the desired limit */
     aspect-ratio: 3 / 4; 
     height: 60vh;
-    width: 45vh;
+    width: 40vh;
     background-color: #32645B;
     background-repeat: no-repeat;
     background-size: cover;
