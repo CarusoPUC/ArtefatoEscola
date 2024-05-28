@@ -373,7 +373,7 @@ section.cards-cursos{
     margin: 10vh 20vh;
     height: fit-content;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(40vh, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(45vh, 1fr));
     grid-template-rows: auto;
     align-items: center;
     align-self: center;
@@ -398,7 +398,7 @@ section.cards-cursos{
 
 @media (min-width: 120vh) {
     section.cards-cursos {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(40vh, 1fr));
     }
 }
 
