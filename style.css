@@ -49,12 +49,14 @@ header{
     padding: 0px 0%;
     position: absolute;
     width: 100%;
+    background-color:#1e1e1e9f;
 }
 
 header > .interface{
     display: flex;
     align-items: start;
     justify-content: start;
+    padding: 1vh 0vh;
 }
 
 header a{
@@ -110,8 +112,8 @@ header nav.menu-desktop{
 }
 
 header .logo{
-    width: 128px;
-    height: 128px;
+    width: 64px;
+    height: 64px;
     padding: 0 0;
 }
 
@@ -343,9 +345,9 @@ section.logo-cursos{
     background-position: center;
     align-items: center;
     align-content: center;
-    height: 100vh;
+    height: 70vh;
     background-color: #a8c654;
-    background-position: 0% 73.5%;
+    background-position: 0% 70.5%;
     border-bottom: 10px solid black;
 }
 
@@ -354,6 +356,7 @@ section.logo-cursos .interface{
     align-content: center;
     height: 45%;
     margin: auto;
+    margin-top: -16vh;
 }
 
 section.logo-cursos .interface p{
@@ -367,7 +370,7 @@ section.logo-cursos .interface p{
 /* CARD SECTION */
 
 section.cards-cursos{
-    margin: 10vh 6vh;
+    margin: 10vh 20vh;
     height: fit-content;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(40vh, 1fr));
@@ -376,7 +379,7 @@ section.cards-cursos{
     align-self: center;
     justify-items: center;
     justify-content: space-between;
-    gap: 6vh 2vh;
+    gap: 14vh 5vh;
 }
 
 .cards-cursos .curso{
@@ -390,18 +393,23 @@ section.cards-cursos{
     background-size: cover;
     background-position: 50% 0%;
     position: relative;
+    overflow: visible;
+}
+
+@media (min-width: 120vh) {
+    section.cards-cursos {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 .cards-cursos .curso.cursocima{
     background-color: #a8c654;
     border-radius: 12% 25% / 12% 25%;
-    border: 6px solid #1E1E1E;
 }
 
 .cards-cursos .curso.cursoabaixo{
     background-color: #a8c654;
-    border-radius: 25% 12% / 25% 12%;
-    border: 6px solid #1E1E1E;
+    border-radius: 25% 12% 25% 12%;
 }
 
 .cards-cursos .curso1{
@@ -477,6 +485,44 @@ section.cards-cursos{
 }
 
 
+.below{
+    position: absolute;
+    top: -1.1%;
+    left: -1.5%;
+    right: 0;
+    bottom: 0;
+    width: 102.5%;
+    height: 102%;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    border-radius: 12% 25% / 12% 25%;
+    justify-content: center;
+    font: 24px;
+    font-weight: 560;
+    background-color: transparent;
+    border: none;
+    padding: 1vh;
+    border: double 2px transparent;
+    border-radius: 12% 25% / 12% 25%;
+    background-image: linear-gradient(transparent, white), radial-gradient(circle at top left, #a8c654, #1E1E1E);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-color: #32645B;
+    pointer-events: none;
+    cursor: none;
+    z-index: -2;
+    
+}
+
+.below.baixo{
+    border-radius: 25% 12% / 25% 12%;
+    left: -1.4%;
+    background-image: linear-gradient(transparent, white), radial-gradient(circle at top right, #a8c654, #1E1E1E);
+}
+
 .overlay{
     position: absolute;
     top: 0;
@@ -490,13 +536,12 @@ section.cards-cursos{
     align-items: center;
     border-radius: 12% 25% / 12% 25%;
     justify-content: center;
-    font: 24px;
     font-weight: 560;
     color: white;
     border: none;
     opacity: 0;
     transition: .3s;
-    font-size: 5vh;
+    font-size: 4vh;
     text-align: center;
     padding: 1vh;
 }
@@ -510,9 +555,9 @@ section.cards-cursos{
     cursor: pointer;
     background-color: #32645B;
     color: white;
-    height: 7vh;
-    width: 17vh;
-    font-size: 3vh;
+    height: 4vh;
+    width: 12vh;
+    font-size: 2vh;
     font-weight: 500;
     border-radius: 5%;
 }
