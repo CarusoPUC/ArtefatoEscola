@@ -354,9 +354,9 @@ section.logo-cursos{
 section.logo-cursos .interface{
     align-items: center;
     align-content: center;
-    height: 45%;
+    height: auto;
     margin: auto;
-    margin-top: -16vh;
+    margin-top: 0vh;
 }
 
 section.logo-cursos .interface p{
