@@ -7,6 +7,7 @@
     <link rel="icon" href="images/iconefundo.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="cursos.css">
+    <script src="script.js" defer></script>
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,32 +39,67 @@
         <section class="logo card">
             <div class="interface"></div>
             <div class="desc">
-                <div class="texto">
-                    <h1>QUADRINHO</h1>
-                    <h2>Curso Presencial e Online</h2>
-                    <div class="conteudo-sobre">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim dolor sit amet nulla iaculis eleifend. Nunc nulla mauris, ultrices at felis eget, interdum cursus tortor. Pellentesque elementum condimentum semper. Donec vitae dictum quam. Phasellus ante nisl, fringilla in sollicitudin commodo, tincidunt a justo. Pellentesque ullamcorper, mauris vel fermentum vehicula, lectus risus consectetur massa, vitae lacinia ante magna a magna. Vestibulum posuere fermentum neque, a tincidunt massa aliquet eu. Aliquam erat volutpat. Ut a vulputate erat. Sed sodales quam ligula, ac venenatis elit gravida vel.</p>
+                <div class="textarea">
+                    <div class="texto">
+                        <h1>QUADRINHO</h1>
+                        <h2>Curso Presencial e Online</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim ultrices lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi aliquam metus dui, ac tempus metus facilisis sed. Vestibulum efficitur volutpat urna non tristique. Curabitur scelerisque risus quis bibendum facilisis. Cras dignissim vestibulum ullamcorper. Nullam et suscipit urna. Suspendisse laoreet nec nulla quis aliquet. In nec ante volutpat, sagittis arcu fermentum, placerat nibh. Nam erat neque, ultricies finibus est sed, pharetra blandit lectus.</p>                          
                     </div>
-                    <div class="infos">
+                    <div class="info">
                         <div class="horas">
                             <i class="bi bi-clock"></i>
-                            <div class="infocard">
-                                <p>CARGA HORÁRIA</p>
-                                <span>80 HORAS</span>
+                            <div class="titequant">
+                                <p class="titulo">CARGA HORÁRIA</p>
+                                <P>80 HORAS</P>
                             </div>
                         </div>
                         <div class="nivel">
                             <i class="bi bi-graph-up"></i>
-                            <div class="infocard">
-                                <p>NIVEL EXIGIDO</p>
-                                <span>INTERMEDIARIO</span>
+                            <div class="titequant">
+                                <p class="titulo">NIVEL EXIGIDO</p>
+                                <P>INTERMEDIARIO</P>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="video-container">
-                    <div class="prevideo">
-                        <video src="images/Design sem nome.mp4" controls="True" class="video" controls disablePictureInPicture controlslist="nodownload noplaybackrate">
+                <div class="video-div">
+                    <div class="video-container paused" data-volume-level="high">
+                        <img class="thumbnail-img">
+                        <div class="videos-control-container">
+                            <div class="timeline-container">
+                                <div class="timeline">
+                                    <div class="thumb-indicator"></div>
+                                </div>
+                            </div>
+                            <div class="controls">
+                                <button class="play-pause-button">
+                                    <i class="bi bi-play-fill"></i>
+                                    <i class="bi bi-pause-fill"></i>
+                                </button>
+                                <div class="volume-container">
+                                    <button class="mute-btn">
+                                        <i class="bi bi-volume-up-fill"></i>
+                                        <i class="bi bi-volume-down-fill"></i>
+                                        <i class="bi bi-volume-mute-fill"></i>
+                                    </button>
+                                    <input type="range" min="0" max="1" step="any" value="1" class="volume-slider">
+                                </div>
+                                <div class="duration-container">
+                                    <div class="current-time">0:00</div>
+                                    /
+                                    <div class="total-time">0:00</div>
+                                </div>
+                                <button class="fullscreen-btn">
+                                    <i class="bi bi-fullscreen"></i>
+                                    <i class="bi bi-fullscreen-exit"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="overlayvideo"></div>
+                        <button class="big-play-button">
+                            <i class="bi bi-play-fill"></i>
+                        </button>
+                        <video src="images/teste.mp4"></video>
                     </div>
                 </div>
             </div>
