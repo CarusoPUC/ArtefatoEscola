@@ -417,8 +417,6 @@ input[type="range"] {
     width: 1rem;
   }
   
- 
-  
   /*********** Firefox styles ***********/
   /* slider track */
   input[type="range"]::-moz-range-track {
@@ -436,3 +434,185 @@ input[type="range"] {
     width: 1rem;
   }
   
+
+/* PARA QUEM */
+
+.para-quem{
+    height: 70vh;
+    width: 100%;
+    background-color: transparent;
+    position: relative;
+}
+
+.container-quem{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    align-items: center;
+    padding: 2cqmin 0%;
+}
+
+.cards{
+    width: 55%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    padding: 2cqmin 2% 2cqmin 5%;
+    gap: 5%;
+}
+
+.container-quem .card1{
+    height: 90%;
+    width: 65%;
+    background-image: url(images/hq/hq1.png);
+    background-size: cover;
+    background-position: 50% 55%;
+    border: 0.4cqmin solid #32645b;
+    border-radius: 30px;
+    filter: drop-shadow(0 0 0.4rem rgba(0,0,0,0.65))
+}
+.container-quem .card2{
+    height: 90%;
+    width: 65%;
+    background-image: url(images/hq/hq2.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+    border: 0.4cqmin solid #32645b;
+    border-radius: 30px;
+    filter: drop-shadow(0 0 0.4rem rgba(0, 0, 0, 0.65))
+}
+.container-quem .text-area-quem{
+    height: 90%;
+    width: 45%;
+    padding-left: 4%;
+    padding-right: 5%;
+}
+
+.text{
+    padding: 2% 0%;
+    text-align: end;
+}
+
+.text h1{
+    font-size: 6.5cqmin;
+    color: #32645b;
+    font-weight:800;
+}
+
+.text p{
+    margin-top: 3%;
+    font-size: 2.5cqmin;
+}
+
+
+/* PROFESSORES */
+
+.professores{
+    padding: 1% 5% 0% 5%;
+}
+
+.professores p{
+    font-size: 6cqmin;
+    color: #32645b;
+    font-weight: 800;
+}
+
+.fotoprofs{
+    margin-top: 2%;
+    width: 100%;
+    height: 58vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prof1{
+    border-radius: 50px;
+    width: 46%;
+    height: 100%;
+    background-color: #1E1E1E;
+    position: relative;
+    display: flex;
+    padding: .5% .5%;
+    gap: 8px;
+}
+
+.fotoprof1{
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    border-radius: 50px;
+    background-image: url(images/cursosimg1.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 140%;
+}
+
+.textoprof{
+    width: 60%;
+    padding: 6% 1%;
+}
+
+.textoprof h1{
+    color: white;
+    font-size: 4.5cqmin;
+    font-weight: 700;
+}
+
+.textoprof p{
+    color: white;
+    font-size: 2.1cqmin;
+    font-weight: 400;
+    margin-top: 2cqmin;
+}
+
+.prof2{
+    position: relative;
+    border-radius: 50px;
+    width: 46%;
+    height: 100%;
+    background-color: #1E1E1E;
+    display: flex;
+    padding: .5% .5%;
+    gap: 8px;
+}
+
+.fotoprof2{
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    border-radius: 50px;
+    background-image: url(images/cursosimg1.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 140%;
+}
+
+/* btn agendar aula */
+
+.agendaraula{
+    width: 100%;
+    height: 25vh;
+    display: grid;
+    grid-template-columns: 25%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.agendaraula button{
+    background: none;
+    border: none;
+    background-color: #32645b;
+    font-size: 2.3cqmin;
+    color: white;
+    font-weight: 700;
+    height: 34%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.agendaraula button:active{
+    background-color: #1E1E1E;
+}
