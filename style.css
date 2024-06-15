@@ -728,3 +728,31 @@ section.cards-galeria{
     background-color: #1E1E1E;
 
 }
+
+.popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 1600px;
+    height: 90vh;
+    max-height: 800px;
+    border-radius: 20px;
+    background: rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.top-bar{
+    position: absolute;
+    background-color: #32645B;
+    width: 50px;
+    height: 50px;
+    top: 2%;
+    right: 1%;
+}
