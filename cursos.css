@@ -5,7 +5,6 @@
 }
 
 .logo .interface{
-    background-image: url(images/fundohq.jpg);
     height: 40vh;
     background-position: 40% 73%;
     background-repeat: no-repeat;
@@ -13,6 +12,45 @@
     display: block;
     padding: 0% 0%;
     margin: auto;
+}
+
+.logo .interface.quadrinho{
+    background-image: url(images/fundohq.jpg);
+}
+
+.logo .interface.ilustracao{
+    background-image: url(images/fundoilust.jpg);
+    background-position: 50% 17%;
+}
+
+.logo .interface.classico{
+    background-image: url(images/fundoclassc.jpg);
+    background-position: 50% 37%;
+}
+
+.logo .interface.aquarela{
+    background-image: url(images/fundoaqua.jpg);
+    background-position: 50% 27%;
+}
+
+.logo .interface.desenArq{
+    background-image: url(images/fundoDesenArq.jpg);
+    background-position: 50% 37%;
+}
+
+.logo .interface.ilustCient{
+    background-image: url(images/fundoilustCient.jpg);
+    background-position: 50% 37%;
+}
+
+.logo .interface.manga{
+    background-image: url(images/fundomanga.jpg);
+    background-position: 50% 34%;
+}
+
+.logo .interface.artCrianca{
+    background-image: url(images/fundoartCrianca.jpg);
+    background-position: 50% 34%;
 }
 
 .desc{
@@ -465,17 +503,80 @@ input[type="range"] {
 .container-quem .card1{
     height: 90%;
     width: 65%;
-    background-image: url(images/hq/hq1.png);
     background-size: cover;
     background-position: 50% 55%;
     border: 0.4cqmin solid #32645b;
     border-radius: 30px;
     filter: drop-shadow(0 0 0.4rem rgba(0,0,0,0.65))
 }
+
+.card1.quad{
+    background-image: url(images/hq/hq1.png);
+}
+
+.card2.quad{
+    background-image: url(images/hq/hq2.jpg);
+}
+
+.card1.ilust{
+    background-image: url(images/ilust/ilust1.jpg);
+}
+
+.card2.ilust{
+    background-image: url(images/ilust/ilust2.jpg);
+}
+
+.card1.classc{
+    background-image: url(images/classic/classc1.jpg);
+}
+
+.card2.classc{
+    background-image: url(images/classic/classc2.jpg);
+}
+
+.card1.aqua{
+    background-image: url(images/aquarela/aqua1.jpg);
+}
+
+.card2.aqua{
+    background-image: url(images/aquarela/aqua2.jpg);
+}
+
+.card1.desArq{
+    background-image: url(images/desenArq/desenArq1.jpg);
+}
+
+.card2.desArq{
+    background-image: url(images/desenArq/desenArq2.jpg);
+}
+
+.card1.ilustCient{
+    background-image: url(images/ilustCient/ilustCient1.png);
+}
+
+.card2.ilustCient{
+    background-image: url(images/ilustCient/ilustCient2.jpg);
+}
+
+.card1.manga{
+    background-image: url(images/manga/manga1.jpg);
+}
+
+.card2.manga{
+    background-image: url(images/manga/manga2.jpg);
+}
+
+.card1.artCrianca{
+    background-image: url(images/artCrianca/artCrianca1.jpg);
+}
+
+.card2.artCrianca{
+    background-image: url(images/artCrianca/artCrianca2.jpg);
+}
+
 .container-quem .card2{
     height: 90%;
     width: 65%;
-    background-image: url(images/hq/hq2.jpg);
     background-size: 150%;
     background-repeat: no-repeat;
     background-position: 50% 20%;

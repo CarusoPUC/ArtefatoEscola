@@ -364,6 +364,18 @@ footer hr{
     margin: auto 0;
     color: #686868;
     font-size: 2cqmin;
+    width: 20cqmin;
+}
+
+.desenv a:hover{
+    color:#a8c654;
+    font-size: 2.05cqmin;
+    transition: 1s;
+}
+
+.desenv a{
+    color: #686868;
+    text-decoration: none; 
 }
 
 .contatos-footer{
