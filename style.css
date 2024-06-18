@@ -19,6 +19,45 @@ body.contato{
     background-color: #1E1E1E;
 }
 
+body main > a{
+    z-index: 6000;
+}
+
+body main .btnWhats{
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    bottom: 10px;
+    right: 10px; 
+    z-index: 1000;
+    background-color: #a8c654;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+body main .btnWhats:hover{
+    scale: 1.1;
+    transition: 0.2s;
+    box-shadow: 0px 0px 20px 2px #1E1E1E;
+}
+
+.btnWhats img{
+    background-position: center;
+    background-size: cover;
+    width: 42px;
+    height: 42px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    filter: brightness(0) saturate(100%) invert(100%) sepia(98%) saturate(7%) hue-rotate(143deg) brightness(104%) contrast(102%);
+}
+
 ::-webkit-scrollbar {
     width: 8px;
     background-color: #1E1E1E;
@@ -124,8 +163,33 @@ header .logo{
     width: 64px;
     height: 64px;
     padding: 0 0;
+    z-index: 100;
 }
 
+header .logo.dois{
+    width: auto;
+    display: none;
+    height: 9cqmin;
+    padding: 0 0;
+    z-index: 100;
+}
+
+.mobile-menu{
+    position: absolute;
+    cursor: pointer;
+    display: none;
+    right: 7cqmin;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+}
+
+.mobile-menu div{
+    width: 32px;
+    height: 3px;
+    background-color: white;
+    margin: 8px;
+}
 
 
 /* LOGO SITE */
@@ -370,7 +434,7 @@ footer hr{
 
 .desenv{
     text-align:center;
-    margin: auto 0;
+    margin: auto 4cqmin;
     color: #686868;
     font-size: 2cqmin;
     width: 20cqmin;
@@ -1030,4 +1094,83 @@ section.contato{
 
 .direita form .btnEnviar:active{
     background-color: #1E1E1E;
+}
+
+header hr{
+    display: none;
+}
+
+@media (max-width: 1279px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    header .logo.dois{
+        display: block;
+    }
+    header .logo.um{
+        display: none;
+    }
+
+    .menu-desktop{
+        position: absolute;
+        top: 0vh;
+        right: 0;
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #1E1E1E;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+
+    .menu-desktop.active{
+        transform: translateX(0);
+        transition: transform 0.3s ease-in;
+    }
+
+    .menu-desktop ul{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: space-around;
+        margin-top: 15%;
+        
+    }
+
+    .nav-list li{
+        text-decoration: none;
+        opacity:0;
+        margin-top: 5%;
+        font-size: 5cqmin;
+        font-weight: 800;
+        margin-left: 6cqmin;
+    }
+
+    .contatos{
+        display: none;
+    }
+
+    .mobile-menu{
+        display: block;
+    }
+
+    header hr{
+        display:initial;
+        margin: 1cqmin 9cqmin;
+    }
+
+    header .menu-desktop hr.selecionado{
+        border: 1px solid #a8c654;
+    }
+
+    @keyframes navLinkFade{
+        from{
+            opacity: 0;
+        }to{
+            opacity: 1;
+        }
+    }
 }
