@@ -12,6 +12,7 @@ class MobileNavbar {
         if (this.menuDesktop) {
             this.menuDesktop.classList.toggle(this.activeClass);
             this.animateLinks();
+            this.toggleBodyOverflow();
         } else {
             console.error('menuDesktop element not found');
         }
@@ -21,6 +22,14 @@ class MobileNavbar {
         this.navLinks.forEach((link) => {
             link.style.animation ? (link.style.animation = "") : (link.style.animation = `navLinkFade 0.5s ease forwards 0.3s`);
         });
+    }
+
+    toggleBodyOverflow() {
+        if (document.body.style.overflowY === "hidden") {
+            document.body.style.overflowY = "";
+        } else {
+            document.body.style.overflowY = "hidden";
+        }
     }
 
     addClickEvent() {
@@ -48,3 +57,4 @@ document.addEventListener("DOMContentLoaded", () => {
     );
     mobileNavbar.init();
 });
+

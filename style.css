@@ -1100,6 +1100,18 @@ header hr{
     display: none;
 }
 
+.menu-desktop .trisquel{
+    display: none;
+}
+
+.logo-site .interface img.vertical{
+    display: none;
+}
+
+.verticalsobre{
+    display: none;
+}
+
 @media (max-width: 1279px) {
     body{
         overflow-x: hidden;
@@ -1107,6 +1119,7 @@ header hr{
 
     header .logo.dois{
         display: block;
+        margin-left: -25px;
     }
     header .logo.um{
         display: none;
@@ -1124,11 +1137,23 @@ header hr{
         background-color: #1E1E1E;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
+        z-index: 1;
+    }
+
+    .menu-desktop img{
+        width: 60%;
+        position: absolute;
+        bottom: -20cqmin;
+        left: -15cqmin;
     }
 
     .menu-desktop.active{
         transform: translateX(0);
         transition: transform 0.3s ease-in;
+    }
+    
+    .menu-desktop .trisquel{
+        display: initial;
     }
 
     .menu-desktop ul{
@@ -1136,7 +1161,7 @@ header hr{
         flex-direction: column;
         align-items: left;
         justify-content: space-around;
-        margin-top: 15%;
+        margin-top: 20%;
         
     }
 
@@ -1164,6 +1189,104 @@ header hr{
 
     header .menu-desktop hr.selecionado{
         border: 1px solid #a8c654;
+    }
+
+    .esquerdap,
+    .direitap{
+        display: none;
+    }
+
+    .logo-site .interface img.horizontal{
+        display: none;
+    }
+
+    .logo-site .interface img.vertical{
+        margin: 0;
+        display: initial;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70%;
+        height: auto;
+    }
+
+    section.logo-site{
+        padding: 0;
+        margin: 0;
+    }
+
+    .logo-site .interface{
+        margin: 0;
+        padding: auto;
+    }
+
+    .sobre{
+        display: none;
+    }
+
+    section.sobre-site .interface .verticalsobre{
+        display: initial;
+        position: relative;
+        height: 100vh;
+    }
+
+    section.sobre-site{
+        display: initial;
+        position: relative;
+        width: 100%;
+        height: 100vh;
+    }
+
+    section.sobre-site .interface{
+        position: relative;
+        width: 100%;
+        height: 160vh;
+    }
+
+    .verticalsobre .faixa{
+        height: 11cqmin;
+        width: 100%;
+        background-color: #32645b75;
+        position:static;
+        margin: 12cqmin auto 6cqmin auto;
+        text-align: center;
+        align-content: center;
+        color: #32645B;
+        font-size: 8cqmin;
+        font-weight: 800;
+    }
+
+    .verticalsobre p{
+        margin: 2cqmin 2cqmin;
+        display: inline;
+    }
+
+    .verticalsobre .texto{
+        margin: auto 6cqmin;
+        color: #32645B;
+        font-size: 3cqmin;
+    }
+
+    .texto span{
+        font-size: 3.3cqmin;
+        font-weight: 700;
+    }
+
+    .verticalsobre .classimgescola{
+        height: 40%;
+        overflow: hidden;
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        margin-top: 6cqmin;
+    }
+
+    .verticalsobre .classimgescola img{
+        height: 100%;
+        border-radius: 20% 5% / 20% 5%;
+        border: 3px solid #32645B;
     }
 
     @keyframes navLinkFade{
