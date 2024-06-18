@@ -12,15 +12,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="interface">
-            <img src="images/logo_triquel.png" class="logo">
-            <nav class="menu-desktop">
-                <ul>
-                    <li><a href="index.html" onclick="window.open('index.html', '_self');" class="selecionado">Home</a></li>
-                    <li><a href="cursos.html" onclick="window.open('cursos.html', '_self');">Cursos</a></li>
-                    <li><a href="galeria.html">Galeria</a></li>
-                    <li><a href="contato.html">Contato</a></li>
+    <header tabindex="-1">
+        <div class="interface" tabindex="-1">
+            <img src="images/logo_triquel.png" class="logo um">
+            <img src="images/logo.png" class="logo dois">
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <nav class="menu-desktop" tabindex="-1">
+                <ul class="nav-list" tabindex="-1">
+                    <li tabindex="-1"><a href="index.html" onclick="window.open('index.html', '_self');" class="selecionado" tabindex="-1">Home</a></li>
+                    <hr class="selecionado">
+                    <li tabindex="-1"><a href="cursos.html" onclick="window.open('cursos.html', '_self');" tabindex="-1">Cursos</a></li>
+                    <hr>
+                    <li tabindex="-1"><a href="galeria.html" tabindex="-1">Galeria</a></li>
+                    <hr>
+                    <li tabindex="-1"><a href="contato.html" tabindex="-1">Contato</a></li>
+                    <hr>
                 </ul>
             </nav>
             <div class="contatos">
@@ -68,6 +78,11 @@
             </div>
             <img src="images/iconefundo.png">
         </section><!-- Sessão Sobre -->
+        <a href="https://web.whatsapp.com/send?phone=5519992498963">
+            <div class="btnWhats">
+            <img src="images/whatsapp.png">
+        </div>
+        </a>
     </main><!-- Main -->
 
     <footer>
@@ -91,6 +106,6 @@
             <p class="desenv"><a href="https://www.linkedin.com/in/marcos-de-castro-santos-junior/">Desenvolvido por<br>Marcos de Castro</a></p>
         </div>
     </footer>
-
+    <script src="mobile-navbar.js"></script>
 </body>
 </html>
