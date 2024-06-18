@@ -15,6 +15,10 @@ body{
     overflow: overlay;
 }
 
+body.contato{
+    background-color: #1E1E1E;
+}
+
 ::-webkit-scrollbar {
     width: 8px;
     background-color: #1E1E1E;
@@ -50,6 +54,11 @@ header{
     position: absolute;
     width: 100%;
     background-color:#1e1e1e9f;
+}
+
+header.contato{
+    background-color: rgba(0, 0, 0, 0.301);
+    z-index: 300;
 }
 
 header > .interface{
@@ -150,14 +159,14 @@ section.logo-site .interface img{
 }
 
 
-section.logo-site .plantas .esquerda img{
+section.logo-site .plantas .esquerdap img{
     height: 30%;
     position: absolute;
     left: 0;
     bottom: 0;
 }
 
-section.logo-site .plantas .direita img{
+section.logo-site .plantas .direitap img{
     height: 30%;
     position: absolute;
     right: 0;
@@ -814,4 +823,211 @@ section.cards-galeria{
     height: 50px;
     top: 2%;
     right: 1%;
+}
+
+
+/*---------- CONTATO ---------*/
+
+section.contato{
+    padding: 12cqmin 18cqmin 5cqmin 18cqmin;
+    height: 90vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.esquerda{
+    height: 90%;
+    width: 60%;
+    position: relative;
+    display: flex;
+}
+
+.direita{
+    height: 90%;
+    width: 40%;
+    position: relative;
+}
+
+.mapbox{
+    margin: 1cqmin 0cqmin 1cqmin 2cqmin;
+    height: 75%;
+    width: 60%;
+    background-color: green;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 30px;
+}
+
+.mapbox iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.textolocal{
+    width: 40%;
+    height: 80%;
+    margin: 1cqmin 3cqmin;
+    position: relative;
+}
+
+.localizacao{
+    width: 100%;
+    height: auto;
+    padding-bottom: 4cqmin;
+}
+
+.localizacao p{
+    color: white;
+    font-size: 2.2cqmin;
+}
+
+.localizacao span{
+    color: #a8c654;
+    font-size: 3.5cqmin;
+    font-weight: 700;
+}
+
+.telefone{
+    width: 100%;
+    height: auto;
+    padding-bottom: 4cqmin;
+}
+
+.telefone p{
+    color: white;
+    font-size: 2.2cqmin;
+}
+
+.telefone span{
+    color: #a8c654;
+    font-size: 3.5cqmin;
+    font-weight: 700;
+}
+
+.horario{
+    width: 100%;
+    height: auto;
+    padding-bottom: 4cqmin;
+}
+
+.horario p{
+    color: white;
+    font-size: 2.2cqmin;
+}
+
+.horario span{
+    color: #a8c654;
+    font-size: 3.5cqmin;
+    font-weight: 700;
+}
+
+.esquerda .contact{
+    width: 60%;
+    height: 15%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 1cqmin 0 1cqmin 0cqmin;
+    padding: 0 0;
+    display: flex;
+    justify-content: space-around;
+    right: 0;
+
+}
+
+.contact img{
+    width: auto;
+    height: 100%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.contact img:hover{
+    scale: 1.1;
+    transition: 1s;
+}
+
+.direita > p{
+    margin: 1cqmin auto;
+    font-size: 3.5cqmin;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+.direita form{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.direita .inputbox{
+    height: 6cqmin;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    margin: 2.6cqmin auto;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 2px solid #a8c654;
+}
+
+.inputbox.mensagem{
+    height: 17cqmin;
+}
+
+.direita input{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    font-size: 3cqmin;
+    padding: 1cqmin 1cqmin;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    background-color: #1E1E1E;
+    color: white;
+}
+
+.direita input:focus{
+    outline: none;
+    outline-width: 0;
+}
+
+.direita input::placeholder{
+    color: white;
+}
+
+.direita textarea::placeholder{
+    color: white;
+}
+
+.direita textarea{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    font-size: 3cqmin;
+    padding: 1cqmin 1cqmin;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    background-color: #1E1E1E;
+    color: white;
+}
+
+.direita form .btnEnviar{
+    width: 14cqmin;
+    height: 7cqmin;
+    border-radius: 10px;
+    font-size: 3cqmin;
+    cursor: pointer;
+    background-color: #a8c654;
+    margin-top: 1cqmin;
+}
+
+.direita form .btnEnviar:active{
+    background-color: #1E1E1E;
 }
