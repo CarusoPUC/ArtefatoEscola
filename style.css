@@ -1120,7 +1120,13 @@ header hr{
 @media (max-width: 1279px) {
 
     .wrapper{
-        overflow-x: hidden;
+        overflow-x: hidden !important;
+        /* Unnecessary IMHO, uncomment next line to force hidden behavior */
+        /* overflow-x: hidden !important; */
+        /* Additional tunning proposed by the community */
+        position: relative;
+        width: 100%;
+
     }
 
     body{
