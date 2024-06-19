@@ -1119,6 +1119,10 @@ header hr{
 
 @media (max-width: 1279px) {
 
+    .wrapper{
+        overflow-x: hidden;
+    }
+
     body{
         overflow-x: hidden;
         width: 100vw;
@@ -1149,7 +1153,7 @@ header hr{
     }
 
     .menu-desktop img{
-        width: 60%;
+        width: 50%;
         position: absolute;
         bottom: -10cqmin;
         left: -15cqmin;
@@ -1169,7 +1173,7 @@ header hr{
         flex-direction: column;
         align-items: left;
         justify-content: space-around;
-        margin-top: 20%;
+        margin-top: 10%;
         
     }
 
