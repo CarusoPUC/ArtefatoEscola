@@ -13,6 +13,7 @@ body{
     font-weight: 600;
     font-style: normal;
     overflow: overlay;
+    overflow-x: hidden;
 }
 
 body.contato{
