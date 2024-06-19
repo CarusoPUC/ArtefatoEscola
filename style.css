@@ -1118,6 +1118,7 @@ header hr{
 }
 
 @media (max-width: 1279px) {
+
     body{
         overflow-x: hidden;
         width: 100vw;
@@ -1132,6 +1133,7 @@ header hr{
     }
 
     .menu-desktop{
+        overflow-x: hidden;
         position: absolute;
         top: 0vh;
         right: 0;
@@ -1258,7 +1260,7 @@ header hr{
         width: 100%;
         background-color: #32645b75;
         position:static;
-        margin: 12cqmin auto 6cqmin auto;
+        margin: 8cqmin auto 6cqmin auto;
         text-align: center;
         align-content: center;
         color: #32645B;
