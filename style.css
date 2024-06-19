@@ -1112,6 +1112,10 @@ header hr{
     display: none;
 }
 
+.informac br{
+    display: none;
+}
+
 @media (max-width: 1279px) {
     body{
         overflow-x: hidden;
@@ -1143,7 +1147,7 @@ header hr{
     .menu-desktop img{
         width: 60%;
         position: absolute;
-        bottom: -20cqmin;
+        bottom: -10cqmin;
         left: -15cqmin;
     }
 
@@ -1388,6 +1392,12 @@ header hr{
     p.desenv{
         margin-top: 1cqmin;
     }
+
+    .informac br{
+        display: initial;
+    }
+
+    
 
     @keyframes navLinkFade{
         from{
