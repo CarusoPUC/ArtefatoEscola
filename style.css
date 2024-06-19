@@ -1207,13 +1207,16 @@ header hr{
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 70%;
+        max-width: 60%;
+        max-height: 60vh;
+        width: auto;
         height: auto;
     }
 
     section.logo-site{
         padding: 0;
         margin: 0;
+        height: 100svh;
     }
 
     .logo-site .interface{
@@ -1235,13 +1238,13 @@ header hr{
         display: initial;
         position: relative;
         width: 100%;
-        height: 100vh;
+        height: 100%;
     }
 
     section.sobre-site .interface{
         position: relative;
         width: 100%;
-        height: 160vh;
+        height: 100%;
     }
 
     .verticalsobre .faixa{
@@ -1274,19 +1277,116 @@ header hr{
     }
 
     .verticalsobre .classimgescola{
-        height: 40%;
         overflow: hidden;
         position: relative;
         margin: 0 auto;
-        width: 100%;
+        width: 60%;
         text-align: center;
         margin-top: 6cqmin;
+        margin-bottom: 6cqmin;
     }
 
     .verticalsobre .classimgescola img{
         height: 100%;
+        width: 100%;
         border-radius: 20% 5% / 20% 5%;
         border: 3px solid #32645B;
+    }
+
+    .sobre-site > img{
+        display: none;
+    }
+
+    footer{
+        height: fit-content;
+    }
+
+    body main .btnWhats {
+        position: fixed;
+        width: 15vw; /* Utilizando viewport width */
+        height: 15vw; /* Utilizando viewport width */
+        bottom: 5vh; /* Utilizando viewport height */
+        right: 5vw; /* Utilizando viewport width */
+        max-width: 64px; /* Limitando o tamanho máximo */
+        max-height: 64px;
+        z-index: 1000;
+        background-color: #a8c654;
+        text-align: center;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+    
+    body main .btnWhats:hover {
+        transform: scale(1.1); /* Corrigindo para scale */
+        box-shadow: 0px 0px 20px 2px #1E1E1E;
+    }
+    
+    .btnWhats img {
+        width: 62%;
+        height: 62%;
+        margin: auto;
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        filter: brightness(0) saturate(100%) invert(100%) sepia(98%) saturate(7%) hue-rotate(143deg) brightness(104%) contrast(102%);
+    }
+
+    .divcima > button{
+        flex-basis: 100%;
+        height: 10cqmin;
+        margin: 2cqmin 30% 1cqmin 30%;
+        width: 30%;
+        margin-top: 4%;
+        border-radius: 2cqmin;
+        font-size: 2.7cqmin;
+        margin-bottom: 3%;
+    }
+
+    .divcima{
+        padding: 4cqmin 0 0cqmin 0;
+        flex-wrap: wrap;
+        height: fit-content;
+    }
+
+    .divcima > img{
+        max-width: 40%;
+        height: auto; /* Isso garante que a altura será ajustada proporcionalmente à largura */
+        display: block;
+        margin: auto 0;
+    }
+    
+    .contatos-footer img{
+        width: 15%;
+        height: 15%;
+        margin: auto 1cqmin;
+    }
+    
+    .contatos-footer{
+        width: 30%;
+        align-items: center;
+        text-align: center;
+        margin: auto 0;
+    }
+    
+    .divabaixo{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .informac{
+        margin: 0 auto;
+    }
+
+    p.CNPJ{
+        margin: 1cqmin 0;
+    }
+
+    p.desenv{
+        margin-top: 1cqmin;
     }
 
     @keyframes navLinkFade{
