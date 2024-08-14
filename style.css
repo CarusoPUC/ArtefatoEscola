@@ -1117,6 +1117,10 @@ header hr{
     display: none;
 }
 
+.cards-cursos .curso .faixacursos{
+    display: none;
+}
+
 @media (max-width: 1279px) {
 
     .wrapper{
@@ -1421,4 +1425,279 @@ header hr{
             opacity: 1;
         }
     }
+
+
+
+/* CURSOSSSSSSSSSSSSSSS */
+
+section.logo-cursos{
+     
+    background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(images/cursosimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    align-content: center;
+    height: 100svh;
+    background-color: #a8c654;
+    background-position: auto 70.5%;
+    border-bottom: 10px solid black;
+    width: 100%;
+    padding: 0;
+}
+
+section.logo-cursos .interface{
+    align-items: center;
+    align-content: center;
+    height: auto;
+
+    margin-top: 0vh;
+    width: 100%;
+}
+
+section.logo-cursos .interface p{
+    color: white;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    font-size: 8svh;
+    font-weight: 700;
+    line-height: 90%;
+}
+
+
+/* CARD SECTION */
+
+section.cards-cursos{
+    margin: 5vh 0vh;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(45vh, 1fr));
+    grid-template-rows: auto;
+    align-items: center;
+    align-self: center;
+    justify-items: center;
+    justify-content: space-between;
+    gap: 5vh 5vh;
+}
+
+.cards-cursos .curso{
+    width: 80%; /* Use a percentage for responsive width */
+    max-width: 35vh; /* Max width to maintain the desired limit */
+    aspect-ratio: 3 / 4; 
+    height: 50vh;
+    width: 40vh;
+    background-color: #32645B;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0%;
+    position: relative;
+    overflow: hidden;
+}
+
+.cards-cursos .curso .faixacursos{
+    display: flex; /* Ativa o flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    width: 100%;
+    height: 17%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #32645B;
+    font-weight: 700;
+    font-size: 4vh;
+    color: white;
+}
+
+.cards-cursos .curso .faixacursos.duaslinhas{
+    font-size: 3vh;
+}
+
+.cards-cursos .below{
+    display: none;
+}
+
+.cards-cursos .curso .cliquemobile{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 120vh) {
+    section.cards-cursos {
+        grid-template-columns: repeat(auto-fit, minmax(40vh, 1fr));
+    }
+}
+
+.cards-cursos .curso.cursocima{
+    background-color: #a8c654;
+    border-radius: 6%;
+}
+
+.cards-cursos .curso.cursoabaixo{
+    background-color: #a8c654;
+    border-radius: 6%;
+}
+
+.cards-cursos .curso1{
+    background-position: 50% 100%;
+    background-image: url(images/cursosimg1.jpg);
+}
+
+.curso1:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/cursosimg1.jpg);
+}
+
+.curso2{
+    background-image: url(images/cursosimg2.jpg);
+}
+
+.curso2:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/cursosimg2.jpg);
+}
+
+.curso.curso3{
+    background-image: url(images/cursosimg3.jpg);
+}
+
+.curso3:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/cursosimg3.jpg);
+}
+
+.curso.curso4{
+    background-image: url(images/cursosimg4.png);
+}
+
+.curso4:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/cursosimg4.png);
+}
+
+.curso.curso5{
+    background-position: 70% 71%;
+    background-size: 50vh;
+    background-image: url(images/cursosimg5.jpg);
+}
+
+.curso5:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/cursosimg5.jpg);
+}
+
+.curso.curso6{
+    background-position: 37% 0%;
+    background-image: url(images/cursosimg6.png);
+}
+
+.curso6:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/cursosimg6.png);
+}
+
+.curso.curso7{
+    background-size: 67vh;
+    background-position: 42% 15%;
+    background-image: url(images/cursosimg7.jpg);
+}
+
+.curso7:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/cursosimg7.jpg);
+}
+
+.curso.curso8{
+    background-position: 50% 0%;
+    background-size: 50vh;
+    background-image: url(images/cursosimg8.jpg);
+}
+
+.curso8:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/cursosimg8.jpg);
+}
+
+
+.below{
+    position: absolute;
+    top: -1.1%;
+    left: -1.5%;
+    right: 0;
+    bottom: 0;
+    width: 102.5%;
+    height: 102%;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    border-radius: 12% 25% / 12% 25%;
+    justify-content: center;
+    font: 24px;
+    font-weight: 560;
+    background-color: transparent;
+    border: none;
+    padding: 1vh;
+    border: double 2px transparent;
+    border-radius: 12% 25% / 12% 25%;
+    background-image: linear-gradient(transparent, white), radial-gradient(circle at top left, #a8c654, #1E1E1E);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-color: #32645B;
+    pointer-events: none;
+    cursor: none;
+    z-index: -2;
+    
+}
+
+.below.baixo{
+    border-radius: 25% 12% / 25% 12%;
+    left: -1.4%;
+    background-image: linear-gradient(transparent, white), radial-gradient(circle at top right, #a8c654, #1E1E1E);
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 101%;
+    height: 101%;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    border-radius: 12% 25% / 12% 25%;
+    justify-content: center;
+    font-weight: 560;
+    color: white;
+    border: none;
+    opacity: 0;
+    transition: .3s;
+    font-size: 4vh;
+    text-align: center;
+    padding: 1vh;
+    display: none;
+}
+.overlay:hover{
+    opacity: 100%;
+}
+
+.overlay button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    background-color: #32645B;
+    color: white;
+    height: 4vh;
+    width: 12vh;
+    font-size: 2vh;
+    font-weight: 500;
+    border-radius: 5%;
+}
+.overlay button:active{
+    background-color: #1E1E1E;
+
+}
+
+
 }

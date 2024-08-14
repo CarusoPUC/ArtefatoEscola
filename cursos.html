@@ -12,16 +12,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="cursos">
-        <div class="interface">
-            <img src="images/logo_triquel.png" class="logo">
-            <nav class="menu-desktop">
-                <ul>
-                    <li><a href="index.html" onclick="window.open('index.html', '_self');">Home</a></li>
-                    <li><a href="cursos.html" onclick="window.open('cursos.html', '_self');" class="selecionado">Cursos</a></li>
-                    <li><a href="galeria.html">Galeria</a></li>
-                    <li><a href="contato.html">Contato</a></li>
+    <div class="wrapper">
+    <header tabindex="-1" class="cursos">
+        <div class="interface" tabindex="-1">
+            <img src="images/logo_triquel.png" class="logo um">
+            <img src="images/logo.png" class="logo dois">
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <nav class="menu-desktop" tabindex="-1">
+                <ul class="nav-list" tabindex="-1">
+                    <li tabindex="-1"><a href="index.html" onclick="window.open('index.html', '_self');" tabindex="-1">Home</a></li>
+                    <hr >
+                    <li tabindex="-1"><a href="cursos.html" onclick="window.open('cursos.html', '_self');" class="selecionado" tabindex="-1">Cursos</a></li>
+                    <hr class="selecionado">
+                    <li tabindex="-1"><a href="galeria.html" tabindex="-1">Galeria</a></li>
+                    <hr>
+                    <li tabindex="-1"><a href="contato.html" tabindex="-1">Contato</a></li>
+                    <hr>
                 </ul>
+                <img src="images/iconefundo.png" class="trisquel">
             </nav>
             <div class="contatos">
                 <a href="https://web.whatsapp.com/send?phone=5519992498963"><img src="images/whatsapp.png"></a>
@@ -44,6 +56,8 @@
                     <a href="quadrinho.html"><button>Saiba mais</button></a>
                 </div>
                 <div class="below"></div>
+                <div class="faixacursos">Quadrinho</div>
+                <a href="quadrinho.html"><div class="cliquemobile"></div></a>
             </div>
             <div class="curso cursocima curso2">
                 <div class="overlay">
@@ -51,6 +65,8 @@
                     <a href="ilustracao.html"><button>Saiba mais</button></a>
                 </div>
                 <div class="below"></div>
+                <div class="faixacursos">Ilustração</div>
+                <a href="ilustracao.html"><div class="cliquemobile"></div></a>
             </div>
             <div class="curso cursocima curso3">
                 <div class="overlay">
@@ -58,6 +74,8 @@
                     <a href="classico.html"><button>Saiba mais</button></a>
                 </div>
                 <div class="below"></div>
+                <div class="faixacursos duaslinhas">Desenho<br>Clássico</div>
+                <a href="classico.html"><div class="cliquemobile"></div></a>
             </div>
             <div class="curso cursoabaixo curso4">
                 <div class="overlay">
@@ -65,6 +83,8 @@
                     <a href="aquarela.html"><button>Saiba mais</button></a>
                 </div>
                 <div class="below baixo"></div>
+                <div class="faixacursos">Aquarela</div>
+                <a href="aquarela.html"><div class="cliquemobile"></div></a>
             </div>
             <div class="curso cursoabaixo curso5">
                 <div class="overlay">
@@ -72,6 +92,8 @@
                     <a href="desArq.html"><button>Saiba mais</button></a>
                 </div>
                 <div class="below baixo"></div>
+                <div class="faixacursos duaslinhas">Desenho<br>Arquitetônico</div>
+                <a href="desArq.html"><div class="cliquemobile"></div></a>
             </div> 
             <div class="curso cursoabaixo curso6">
                 <div class="overlay">
@@ -79,6 +101,8 @@
                     <a href="ilustCient.html"><button>Saiba mais</button></a>
                 </div>
                 <div class="below baixo"></div>
+                <div class="faixacursos duaslinhas">Ilustração<br>Científica</div>
+                <a href="ilustCient.html"><div class="cliquemobile"></div></a>
             </div> 
             <div class="curso cursocima curso7">
                 <div class="overlay">
@@ -86,6 +110,8 @@
                     <a href="manga.html"><button>Saiba mais</button></a>
                 </div>
                 <div class="below"></div>
+                <div class="faixacursos">Mangá</div>
+                <a href="manga.html"><div class="cliquemobile"></div></a>
             </div> 
             <div class="curso cursocima curso8">
                 <div class="overlay">
@@ -93,6 +119,8 @@
                     <a href="artCrianca.html"><button>Saiba mais</button></a>
                 </div>
                 <div class="below"></div>
+                <div class="faixacursos duaslinhas">Arte para <br>Criança</div>
+                <a href="artCrianca.html"><div class="cliquemobile"></div></a>
             </div> 
         </section>
         <a href="https://web.whatsapp.com/send?phone=5519992498963">
@@ -122,5 +150,7 @@
             <p class="desenv"><a href="https://www.linkedin.com/in/marcos-de-castro-santos-junior/">Desenvolvido por<br>Marcos de Castro</a></p>
         </div>
     </footer>
+</div>
+<script src="mobile-navbar.js"></script>
 </body>
 </html>
