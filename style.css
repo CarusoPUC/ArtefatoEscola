@@ -1130,7 +1130,9 @@ header hr{
 
     body{
         overflow-x: hidden;
-        width: 100vw;
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     header .logo.dois{
@@ -1143,10 +1145,10 @@ header hr{
 
     .menu-desktop{
         overflow-x: hidden;
-        position: absolute;
-        top: 0vh;
+        position: fixed;
+        top: 0;
         right: 0;
-        width: 100vw;
+        width: 100%;
         height: 100svh;
         flex-direction: column;
         align-items: center;
