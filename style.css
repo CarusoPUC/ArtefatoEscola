@@ -1121,6 +1121,10 @@ header hr{
     display: none;
 }
 
+body.contbody{
+    background-color: #1E1E1E;
+}
+
 @media (max-width: 1279px) {
 
     .wrapper{
@@ -1882,5 +1886,248 @@ section.cards-galeria{
     right: 1%;
 }
 
+
+
+section.contato{
+    padding: 6cqmin 3cqmin 6cqmin 3cqmin;
+    margin-top: 6vh;
+    height: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.esquerda{
+    height: auto;
+    width: 90%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+
+.direita{
+    height: 40%;
+    width: 90%;
+    position: relative;
+}
+
+.mapbox{
+    left: 0;
+    height: 50vh;
+    width: 90%;
+    margin: 0 auto;
+    background-color: green;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 30px;
+}
+
+.mapbox iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.textolocal {
+    width: 90%; /* Aumentado para ocupar a maior parte do espaço disponível */
+    margin: 2cqmin auto;
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Coloca os elementos em uma coluna */
+    justify-content: space-between; /* Distribui o espaço entre os itens */
+    align-items: center;
+}
+
+.textolocal > div {
+    width: 100%; /* Assegura que cada div ocupe toda a largura disponível */
+    padding: 1cqmin; /* Adiciona um pouco de espaço ao redor do conteúdo */
+}
+
+.endereco-telefone {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Distribui espaço entre os itens */
+}
+
+.localizacao,
+.telefone {
+    flex: 1;
+    padding: 0 1cqmin; /* Adiciona um espaço entre as colunas */
+    text-align: left; /* Mantém o alinhamento à esquerda */
+}
+
+.horario {
+    margin-top: 0cqmin; /* Adiciona espaço acima do horário */
+}
+
+.localizacao{
+    width: 100%;
+    height: auto;
+    padding-bottom: 4cqmin;
+}
+
+.localizacao p{
+    color: white;
+    font-size: 3.5cqmin;
+}
+
+.localizacao span{
+    color: #a8c654;
+    font-size: 6cqmin;
+    font-weight: 700;
+}
+
+.telefone{
+    width: 100%;
+    height: auto;
+    padding-bottom: 4cqmin;
+    padding-left: 15%;
+}
+
+.telefone p{
+    color: white;
+    font-size: 3.5cqmin;
+}
+
+.telefone span{
+    color: #a8c654;
+    font-size: 6cqmin;
+    font-weight: 700;
+}
+
+.horario{
+    width: 100%;
+    height: auto;
+    padding-bottom: 4cqmin;
+}
+
+.horario p{
+    color: white;
+    font-size: 3.5cqmin;
+}
+
+.horario span{
+    color: #a8c654;
+    font-size: 6cqmin;
+    font-weight: 700;
+}
+
+.esquerda .contact{
+    width: 90%;
+    height: 15%;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    padding: 0 0;
+    display: flex;
+    right: 0;
+    margin: 1cqmin auto; /* Centraliza o container horizontalmente */
+    margin-top: 4cqmin;
+    display: flex; /* Usa flexbox para organizar os itens */
+    justify-content: space-around; /* Distribui igualmente o espaço ao redor dos itens */
+    align-items: center; /* Centraliza os itens verticalmente */
+}
+
+.contact a{
+    width: 20%;
+    height: auto;
+}
+
+.contact img{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.contact img:hover{
+    scale: 1.1;
+    transition: 1s;
+}
+
+.direita > p{
+    margin: 1cqmin auto;
+    font-size: 7cqmin;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+.direita form{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.direita .inputbox{
+    height: 9cqmin;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    margin: 2.6cqmin auto;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 2px solid #a8c654;
+}
+
+.inputbox.mensagem{
+    height: 17cqmin;
+}
+
+.direita input{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    font-size: 3.5cqmin;
+    padding: 1cqmin 1cqmin;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    background-color: #1E1E1E;
+    color: white;
+}
+
+.direita input:focus{
+    outline: none;
+    outline-width: 0;
+}
+
+.direita input::placeholder{
+    color: white;
+}
+
+.direita textarea::placeholder{
+    color: white;
+}
+
+.direita textarea{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    font-size: 3.5cqmin;
+    padding: 1cqmin 1cqmin;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    background-color: #1E1E1E;
+    color: white;
+}
+
+.direita form .btnEnviar{
+    width: 18cqmin;
+    height: 8cqmin;
+    border-radius: 10px;
+    font-size: 3.5cqmin;
+    cursor: pointer;
+    background-color: #a8c654;
+    margin-top: 1cqmin;
+}
+
+.direita form .btnEnviar:active{
+    background-color: #1E1E1E;
+}
 
 }

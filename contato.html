@@ -11,17 +11,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-<body class="contato">
-    <header class="contato">
-        <div class="interface">
-            <img src="images/logo_triquel.png" class="logo">
-            <nav class="menu-desktop">
-                <ul>
-                    <li><a href="index.html" onclick="window.open('index.html', '_self');">Home</a></li>
-                    <li><a href="cursos.html" onclick="window.open('cursos.html', '_self');">Cursos</a></li>
-                    <li><a href="galeria.html">Galeria</a></li>
-                    <li><a href="contato.html" class="selecionado">Contato</a></li>
+<body class="contbody">
+    <div class="wrapper">
+    <header tabindex="-1" class="contato">
+        <div class="interface" tabindex="-1">
+            <img src="images/logo_triquel.png" class="logo um">
+            <img src="images/logo.png" class="logo dois">
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <nav class="menu-desktop" tabindex="-1">
+                <ul class="nav-list" tabindex="-1">
+                    <li tabindex="-1"><a href="index.html" onclick="window.open('index.html', '_self');" tabindex="-1">Home</a></li>
+                    <hr >
+                    <li tabindex="-1"><a href="cursos.html" onclick="window.open('cursos.html', '_self');" tabindex="-1">Cursos</a></li>
+                    <hr>
+                    <li tabindex="-1"><a href="galeria.html" class="selecionado" tabindex="-1">Galeria</a></li>
+                    <hr class="selecionado">
+                    <li tabindex="-1"><a href="contato.html" tabindex="-1">Contato</a></li>
+                    <hr>
                 </ul>
+                <img src="images/iconefundo.png" class="trisquel">
             </nav>
             <div class="contatos">
                 <a href="https://web.whatsapp.com/send?phone=5519992498963"><img src="images/whatsapp.png"></a>
@@ -38,19 +50,21 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.5479458009017!2d-47.0624596!3d-22.8931518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c8aa31bdb7c9%3A0x14c8483464271f04!2sR.%20Pref.%20Passos%2C%20187%20-%20Vila%20Itapura%2C%20Campinas%20-%20SP%2C%2013023-220!5e0!3m2!1spt-BR!2sbr!4v1718650520166!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="textolocal">
-                    <div class="localizacao">
-                        <p><span>Endereço</span></p>
-                        <p>R. Pref. Passos, 187</p>
-                        <p>- Vila Itapura,</p>
-                        <p>Campinas - SP, 13023-220</p>
-                    </div>
-                    <div class="telefone">
-                        <p><span>Telefone</span></p>
-                        <p>(19) 3397-7720</p>
-                        <p>(19) 99249-8963</p>
+                    <div class="endereco-telefone">
+                        <div class="localizacao">
+                            <p><span>Endereço</span></p>
+                            <p>R. Pref. Passos, 187</p>
+                            <p>- Vila Itapura,</p>
+                            <p>Campinas - SP, 13023-220</p>
+                        </div>
+                        <div class="telefone">
+                            <p><span>Telefone</span></p>
+                            <p>(19) 3397-7720</p>
+                            <p>(19) 99249-8963</p>
+                        </div>
                     </div>
                     <div class="horario">
-                        <p><span>Horario de<br>Atendimento</span></p>
+                        <p><span>Horário de<br>Atendimento</span></p>
                         <p>Segunda – Sábado</p>
                         <p>das 10:00 – 20:00</p>
                     </div>
@@ -85,24 +99,25 @@
     <footer>
         <div class="divcima">
             <img src="images/logo.png">
-            <button>Agende uma aula gratuita!</button>
             <div class="contatos-footer">
                 <img src="images/whatsapp.png">
                 <img src="images/telegram.png">
                 <img src="images/instagram.png">
             </div>
+            <button>Agende uma aula gratuita!</button>
         </div>
         <hr>
         <div class="divabaixo">
             <div class="informac">
                 <p>(19) 3397-7720 | (19) 99249-8963</p>
                 <p><span>contato@artefatoescola.com.br</span></p>
-                <p>R. Pref. Passos, 187 - Vila Itapura, Campinas - SP, 13023-220</p>
+                <p>R. Pref. Passos, 187 - Vila Itapura,<br> Campinas - SP, 13023-220</p>
             </div>
             <p class="CNPJ"><span>CNPJ</span>  33.192.572/0001-79</p>
             <p class="desenv"><a href="https://www.linkedin.com/in/marcos-de-castro-santos-junior/">Desenvolvido por<br>Marcos de Castro</a></p>
         </div>
     </footer>
-
+    </div>
+    <script src="mobile-navbar.js"></script>
 </body>
 </html>
