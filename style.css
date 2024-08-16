@@ -1164,7 +1164,7 @@ body.contbody{
         background-color: #1E1E1E;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
-        z-index: 1;
+        z-index: 6;
     }
 
     .menu-desktop img{
