@@ -717,3 +717,209 @@ input[type="range"] {
 .agendaraula button:active{
     background-color: #1E1E1E;
 }
+
+@media (max-width: 1279px) {
+
+    .desc{
+        flex-direction: column;
+    }
+    .logo .interface{
+        height: 30vh;
+    }
+    .texto{
+        position: relative;
+        background-color: transparent;
+        height: auto;
+        max-height: 80%;
+        padding-top: 1%;
+    }
+    
+    .texto h1{
+        font-size: 8cqmin;
+        color: white;
+    } 
+    
+    .texto h2{
+        font-size: 3cqw;
+        color: #a8c654;
+    }
+    
+    .texto p{
+        color: white;
+        padding-top: 2%;
+        font-size: 2.45cqmin;
+        height: auto;
+    }
+    .info{
+        margin-top: 0px;
+        position: relative;
+    }
+    .video-div{
+        position: relative;
+        width: 90%;
+        height: 100%;
+        max-width: 90%;
+        max-height: 100%;
+        background-color: transparent;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        margin-inline: auto;
+        padding: 0.49cqmin 0.2cqmin;
+        margin-top: 20%;
+    }
+    .container-quem{
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 70vh;
+        align-items: center;
+        padding: 2cqmin 0%;
+        flex-direction: row-reverse;
+    }
+    .cards{
+        width: 50%;
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        padding-right: 5%;
+        padding-top: 10%;
+        padding-left: 3%;
+        gap: 4%;
+        flex-direction: column;
+    }
+    .container-quem .card1{
+        height: 70%;
+        width: 100%;
+    }
+    .container-quem .card2{
+        height: 70%;
+        width: 100%;
+    }
+    .text h1{
+        font-size: 5.8cqmin;
+        color: #32645b;
+        font-weight:800;
+        text-align: left;
+    }
+    
+    .text p{
+        margin-top: 3%;
+        font-size: 3.5cqmin;
+        text-align: left;
+    }
+    .container-quem .text-area-quem{
+        height: 90%;
+        width: 45%;
+        padding: 0;
+    }
+    .professores{
+        margin-top: 5%;
+        padding: 1% 5% 0% 5%;
+    }
+    
+    .professores p{
+        font-size: 7cqmin;
+        color: #32645b;
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    
+    .fotoprofs{
+        margin-top: 2%;
+        width: 100%;
+        height: 68vh;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 4%;
+    }
+    
+    .prof1{
+        border-radius: 50px;
+        width: 100%;
+        height: 100%;
+        background-color: #1E1E1E;
+        position: relative;
+        display: flex;
+        padding: .5% .5%;
+        gap: 8px;
+    }
+    
+    .fotoprof1{
+        width: 40%;
+        height: 100%;
+        justify-content: center;
+        border-radius: 50px;
+        background-image: url(images/cursosimg1.jpg);
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: 140%;
+    }
+    
+    .textoprof{
+        width: 60%;
+        padding: 6% 1%;
+    }
+    
+    .textoprof h1{
+        color: white;
+        font-size: 6cqmin;
+        font-weight: 700;
+    }
+    
+    .textoprof p{
+        color: white;
+        font-size: 2.6cqmin;
+        font-weight: 400;
+        margin-top: 2cqmin;
+        text-align: left;
+    }
+    
+    .prof2{
+        position: relative;
+        border-radius: 50px;
+        width: 100%;
+        height: 100%;
+        background-color: #1E1E1E;
+        display: flex;
+        padding: .5% .5%;
+        gap: 8px;
+    }
+    
+    .fotoprof2{
+        width: 40%;
+        height: 100%;
+        justify-content: center;
+        border-radius: 50px;
+        background-image: url(images/cursosimg1.jpg);
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: 140%;
+    }
+    
+    .agendaraula{
+        width: 100%;
+        height: 25vh;
+        display: grid;
+        grid-template-columns: 55%;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin-top: 5%;
+    }
+    
+    .agendaraula button{
+        background: none;
+        border: none;
+        background-color: #32645b;
+        font-size: 3.3cqmin;
+        color: white;
+        font-weight: 700;
+        height: 34%;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+}
