@@ -816,6 +816,16 @@ section.cards-galeria{
     background-image: url(images/cursosimg1.jpg);
 }
 
+.cards-galeria .img7{
+    background-position: 50% 100%;
+    background-image: url(images/cursosimg1.jpg);
+}
+
+.cards-galeria .img8{
+    background-position: 50% 100%;
+    background-image: url(images/cursosimg1.jpg);
+}
+
 .galeria .overlay{
     position: absolute;
     top: 0;
@@ -1808,6 +1818,16 @@ section.cards-galeria{
 }
 
 .cards-galeria .img6{
+    background-position: 50% 100%;
+    background-image: url(images/cursosimg1.jpg);
+}
+
+.cards-galeria .img7{
+    background-position: 50% 100%;
+    background-image: url(images/cursosimg1.jpg);
+}
+
+.cards-galeria .img8{
     background-position: 50% 100%;
     background-image: url(images/cursosimg1.jpg);
 }
