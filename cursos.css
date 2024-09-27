@@ -101,6 +101,15 @@
     border: 0.4cqmin solid white;
     overflow: hidden;
     aspect-ratio: 16/9;
+    background-image: url(images/hq/videoimg.jpg);
+    background-size: 100%;
+    background-position: 50% 0%;
+}
+
+.video-container.videoilust{
+    background-image: url(images/ilust/videoilust.jpg);
+    background-size: 100%;
+    background-position: 50% 10%;
 }
 
 .video-container video{
@@ -413,6 +422,10 @@
     border-radius: 10px;
 }
 
+.info .nivel.ilust{
+    width: 50%;
+}
+
 .titequant{
     font-weight: 700;
     font-size: 2cqmin;
@@ -511,10 +524,13 @@ input[type="range"] {
 }
 
 .card1.quad{
+    background-size: 150%;
+    background-position: 10% 20%;
     background-image: url(images/hq/hq1.png);
 }
 
 .card2.quad{
+    background-size: contain;
     background-image: url(images/hq/hq2.jpg);
 }
 
@@ -612,6 +628,7 @@ input[type="range"] {
 
 .professores{
     padding: 1% 5% 0% 5%;
+    height: auto;
 }
 
 .professores p{
@@ -626,6 +643,11 @@ input[type="range"] {
     height: 58vh;
     display: flex;
     justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.fotoprofs.profsilust{
+    margin-bottom: 65vh;
 }
 
 .prof1{
@@ -679,6 +701,30 @@ input[type="range"] {
     gap: 8px;
 }
 
+.prof3{
+    position: relative;
+    border-radius: 50px;
+    width: 46%;
+    height: 100%;
+    background-color: #1E1E1E;
+    display: flex;
+    padding: .5% .5%;
+    gap: 8px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.fotoprof3{
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    border-radius: 50px;
+    background-image: url(images/cursosimg1.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 140%;
+}
+
 .fotoprof2{
     width: 40%;
     height: 100%;
@@ -688,6 +734,48 @@ input[type="range"] {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: 140%;
+}
+
+
+.fotoprof1.hq{
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    border-radius: 50px;
+    background-image: url(images/hq/AVATAR\ BRUNO.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 140%;
+}
+.fotoprof2.hq{
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    border-radius: 50px;
+    background-image: url(images/hq/AVATAR\ ATHILA.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 140%;
+}
+
+.fotoprof1.ilut{
+    background-image: url(images/ilust/AVATAR\ BRUNO.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 140%;
+}
+.fotoprof2.ilut{
+    background-image: url(images/ilust/AVATAR\ ATHILA.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 140%;
+}
+
+.fotoprof3.ilut{
+    background-image: url(images/ilust/Auto\ RetratoIsrael.jpg);
+    background-position: 24% 60%;
+    background-repeat: no-repeat;
+    background-size: 150%;
 }
 
 /* btn agendar aula */
