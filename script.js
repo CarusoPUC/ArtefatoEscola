@@ -150,3 +150,7 @@ function handleTimelineUpdate(e){
         timelineContainer.style.setProperty("--progress-position", percent)
     }
 }
+
+function agendarAula() {
+    window.location.href = "https://web.whatsapp.com/send?phone=5519992498963";
+}

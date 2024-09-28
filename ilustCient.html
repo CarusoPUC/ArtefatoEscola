@@ -54,14 +54,14 @@
                     <div class="texto">
                         <h1>ILUSTRAÇÃO CIENTÍFICA</h1>
                         <h2>Curso Presencial e Online</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim ultrices lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi aliquam metus dui, ac tempus metus facilisis sed. Vestibulum efficitur volutpat urna non tristique. Curabitur scelerisque risus quis bibendum facilisis. Cras dignissim vestibulum ullamcorper. Nullam et suscipit urna. Suspendisse laoreet nec nulla quis aliquet. In nec ante volutpat, sagittis arcu fermentum, placerat nibh. Nam erat neque, ultricies finibus est sed, pharetra blandit lectus.</p>                          
+                        <p>Ilustração científica é a componente visual da divulgação das Ciências e pode ser definida como uma área de intersecção entre a Ciência e a Arte, cuja finalidade é auxiliar o pesquisador a comunicar suas ideias e descobertas, em forma de desenhos detalhados. É um curso em dois módulos básicos, que pode se estender de acordo com a necessidade e a vontade do aluno. Nestes dois módulos iniciais, é trabalhada a técnica do grafite voltada para a ilustração científica.</p>                          
                     </div>
                     <div class="info">
                         <div class="horas">
                             <i class="bi bi-clock"></i>
                             <div class="titequant">
                                 <p class="titulo">CARGA HORÁRIA</p>
-                                <P>80 HORAS</P>
+                                <P>88 HORAS</P>
                             </div>
                         </div>
                         <div class="nivel">
@@ -74,8 +74,8 @@
                     </div>
                 </div>
                 <div class="video-div">
-                    <div class="video-container paused" data-volume-level="high">
-                        <img class="thumbnail-img">
+                    <div class="video-container paused desCient" data-volume-level="high">
+                        <!--<img class="thumbnail-img">
                         <div class="videos-control-container">
                             <div class="timeline-container">
                                 <div class="timeline">
@@ -111,6 +111,7 @@
                             <i class="bi bi-play-fill"></i>
                         </button>
                         <video src="images/teste.mp4"></video>
+                        --> 
                     </div>
                 </div>
             </div>
@@ -128,7 +129,8 @@
                 <div class="text-area-quem">
                     <div class="text">
                         <h1>PARA QUEM É<BR>ESTE CURSO?</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim ultrices lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi aliquam metus dui, ac tempus metus facilisis sed. Vestibulum efficitur volutpat urna non tristique. Curabitur scelerisque risus quis bibendum facilisis. Cras dignissim vestibulum ullamcorper. Nullam et suscipit urna. Suspendisse laoreet nec nulla quis aliquet. In nec ante volutpat, sagittis arcu fermentum, placerat nibh. Nam erat neque, ultricies finibus est sed, pharetra blandit lectus.</p>                          
+                        <p>Como todo curso de ilustração, é voltado para quem busca uma especialização que visa o mercado, no caso, de ilustração científica em suas diversas áreas.
+                        </p>                          
                     </div>
                 </div>
             </div>
@@ -136,23 +138,16 @@
         <section class="professores">
             <p>CONHEÇA OS<BR>PROFESSORES</p>
             <div class="fotoprofs">
-                <div class="prof1">
-                    <div class="fotoprof1"></div>
+                <div class="prof1 desCient">
+                    <div class="fotoprof1 desCient"></div>
                     <div class="textoprof">
-                        <h1>BRUNO BÜLL</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim ultrices lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi aliquam metus dui, ac tempus metus facilisis sed. Vestibulum efficitur volutpat urna non tristique. Curabitur scelerisque risus quis bibendum facilisis. Cras dignissim vestibulum ullamcorper. Nullam et suscipit urna. Suspendisse laoreet nec nulla quis aliquet. In nec ante volutpat, sagittis arcu fermentum, placerat nibh. Nam erat neque, ultricies finibus est sed, pharetra blandit lectus.</p>                          
-                    </div>
-                </div>
-                <div class="prof2">
-                    <div class="fotoprof2"></div>
-                    <div class="textoprof">
-                        <h1>ATHILA FABBIO</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim ultrices lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi aliquam metus dui, ac tempus metus facilisis sed. Vestibulum efficitur volutpat urna non tristique. Curabitur scelerisque risus quis bibendum facilisis. Cras dignissim vestibulum ullamcorper. Nullam et suscipit urna. Suspendisse laoreet nec nulla quis aliquet. In nec ante volutpat, sagittis arcu fermentum, placerat nibh. Nam erat neque, ultricies finibus est sed, pharetra blandit lectus.</p>                          
+                        <h1>VIVIAN HACKBART</h1>
+                        <p>Bióloga e ilustradora científica, formada em Aveiro, Portugal. Especializada em grafite e aquarela, tem um foco particular na ilustração botânica. A natureza é sua maior fonte de inspiração, influenciando profundamente suas criações detalhadas e precisas. As aulas não são apenas um modo de dividir o conhecimento técnico, mas também um modo de compartilhar sua paixão por combinar ciência e arte com seus alunos.</p>                          
                     </div>
                 </div>
             </div>
         </section>
-        <section class="agendaraula">
+        <section class="agendaraula" onClick="agendarAula()">
             <button>QUERO AGENDAR UMA AULA!</button>
         </section>
 
@@ -160,11 +155,11 @@
             <div class="divcima">
                 <img src="images/logo.png">
                 <div class="contatos-footer">
-                    <img src="images/whatsapp.png">
-                    <img src="images/telegram.png">
-                    <img src="images/instagram.png">
+                    <a href="https://web.whatsapp.com/send?phone=5519992498963"><img src="images/whatsapp.png"></a>
+                    <a href="https://t.me/artefatoescolach"><img src="images/telegram.png"></a>
+                    <a href="https://www.instagram.com/artefatoescola/"><img src="images/instagram.png"></a>
                 </div>
-                <button>Agende uma aula gratuita!</button>
+                <button onClick="agendarAula()">Agende uma aula gratuita!</button>
             </div>
             <hr>
             <div class="divabaixo">
@@ -177,6 +172,11 @@
                 <p class="desenv"><a href="https://www.linkedin.com/in/marcos-de-castro-santos-junior/">Desenvolvido por<br>Marcos de Castro</a></p>
             </div>
         </footer>
+        <a href="https://web.whatsapp.com/send?phone=5519992498963">
+            <div class="btnWhats">
+            <img src="images/whatsapp.png">
+        </div>
+        </a>
     </main>
 </div>
 <script src="mobile-navbar.js"></script>

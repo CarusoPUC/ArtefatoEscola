@@ -204,7 +204,16 @@ section.logo-site{
     align-items: center;
     align-content: center;
     height: 100vh;
-    background-color: #a8c654;
+    background-color: transparent;
+}
+
+#myVideo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
 }
 
 section.logo-site .interface{
@@ -621,6 +630,17 @@ section.cards-cursos{
 .curso8:hover{
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/cursosimg8.jpg);
 }
+
+.curso.curso9{
+    background-position: 30% 40%;
+    background-size: 50vh;
+    background-image: url(images/escultura/escultura2.png);
+}
+
+.curso9:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/escultura/escultura2.png);
+}
+
 
 
 .below{
