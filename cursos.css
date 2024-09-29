@@ -53,6 +53,12 @@
     background-position: 50% 34%;
 }
 
+.logo .interface.escultura{
+    background-image: url(images/escultura/escultura5.png);
+    background-position: 50% 30%;
+
+}
+
 .desc{
     display: flex;
     height: 60vh;
@@ -101,6 +107,54 @@
     border: 0.4cqmin solid white;
     overflow: hidden;
     aspect-ratio: 16/9;
+    background-image: url(images/hq/videoimg.jpg);
+    background-size: 100%;
+    background-position: 50% 0%;
+}
+
+.video-container.videoilust{
+    background-image: url(images/ilust/videoilust.jpg);
+    background-size: 100%;
+    background-position: 50% 10%;
+}
+.video-container.aquar{
+    background-image: url(images/aquarela/aqua2.jpg);
+    background-size: 135%;
+    background-position: 57% 40%;
+}
+.video-container.artCrianca{
+    background-image: url(images/artCrianca/artCrianca2.jpg);
+    background-size: 100%;
+    background-position: 57% 40%;
+}
+.video-container.classc{
+    background-image: url(images/classic/classc1.jpg);
+    background-size: 100%;
+    background-position: 57% 20%;
+}
+
+.video-container.desArq{
+    background-image: url(images/desenArq/desenArq2.jpg);
+    background-size: 100%;
+    background-position: 57% 7%;
+}
+
+.video-container.desCient{
+    background-image: url(images/ilustCient/ilustCient1.png);
+    background-size: 100%;
+    background-position: 57% 7%;
+}
+
+.video-container.manga{
+    background-image: url(images/manga/ARTE\ GISELA\ 3.jpg);
+    background-size: 100%;
+    background-position: 57% 45%;
+}
+
+.video-container.escultura{
+    background-image: url(images/escultura/escultura1.jpg);
+    background-size: 100%;
+    background-position: 57% 7%;
 }
 
 .video-container video{
@@ -368,6 +422,10 @@
     
 }
 
+.texto p.textoAqua{
+    font-size: 2cqmin;
+}
+
 .info{
     height: 40%;
     background-color: transparent;
@@ -413,15 +471,29 @@
     border-radius: 10px;
 }
 
+.info .nivel.ilust{
+    width: 50%;
+}
+
+.info .nivel.aquarelaNivel{
+    width: 54%;
+}
+
 .titequant{
     font-weight: 700;
     font-size: 2cqmin;
     color: white;
 }
 
+.titequant.aqua{
+    font-size: 1.5cqmin;
+}
+
 .titulo{
     color: #a8c654;
 }
+
+
 
 /*********** Baseline, reset styles ***********/
 input[type="range"] {
@@ -511,10 +583,13 @@ input[type="range"] {
 }
 
 .card1.quad{
+    background-size: 150%;
+    background-position: 10% 20%;
     background-image: url(images/hq/hq1.png);
 }
 
 .card2.quad{
+    background-size: contain;
     background-image: url(images/hq/hq2.jpg);
 }
 
@@ -527,51 +602,67 @@ input[type="range"] {
 }
 
 .card1.classc{
-    background-image: url(images/classic/classc1.jpg);
+    background-image: url(images/classic/ARTE\ LAURA.jpg);
+    background-position: 50% 90%;
+    background-size: 120%;
 }
 
 .card2.classc{
-    background-image: url(images/classic/classc2.jpg);
+    background-image: url(images/classic/ARTE\ GUSTAVO.jpg);
+    background-size:100%;
+
 }
 
 .card1.aqua{
-    background-image: url(images/aquarela/aqua1.jpg);
+    background-image: url(images/aquarela/ARTE.jpg);
 }
 
 .card2.aqua{
-    background-image: url(images/aquarela/aqua2.jpg);
+    background-image: url(images/aquarela/ARTE2.jpg);
+    background-size: 190%;
 }
 
 .card1.desArq{
-    background-image: url(images/desenArq/desenArq1.jpg);
+    background-image: url(images/desenArq/ARTE\ FERNANDA.jpg);
 }
 
 .card2.desArq{
-    background-image: url(images/desenArq/desenArq2.jpg);
+    background-image: url(images/desenArq/ARTE\ FERNANDA2.jpg);
 }
 
 .card1.ilustCient{
-    background-image: url(images/ilustCient/ilustCient1.png);
+    background-image: url(images/ilustCient/Arte\ Vivian.jpg);
 }
 
 .card2.ilustCient{
-    background-image: url(images/ilustCient/ilustCient2.jpg);
+    background-image: url(images/ilustCient/Arte\ Vivian2.jpg);
 }
 
 .card1.manga{
-    background-image: url(images/manga/manga1.jpg);
+    background-image: url(images/manga/ARTE\ GISELA\ 2.jpg);
+    background-position: 10% 50%;
 }
 
 .card2.manga{
-    background-image: url(images/manga/manga2.jpg);
+    background-image: url(images/manga/ARTE\ ELAYLA.jpg);
 }
 
 .card1.artCrianca{
-    background-image: url(images/artCrianca/artCrianca1.jpg);
+    background-image: url(images/cursosimg8.jpg);
 }
 
 .card2.artCrianca{
-    background-image: url(images/artCrianca/artCrianca2.jpg);
+    background-image: url(images/artCrianca/art1.jpg);
+}
+
+.card1.escultura{
+    background-image: url(images/escultura/escultura2.png);
+    background-position: 10% 60%;
+}
+
+.card2.escultura{
+    background-image: url(images/escultura/escultura4.png);
+    
 }
 
 .container-quem .card2{
@@ -584,6 +675,15 @@ input[type="range"] {
     border-radius: 30px;
     filter: drop-shadow(0 0 0.4rem rgba(0, 0, 0, 0.65))
 }
+
+.container-quem .card2.manga{
+    background-size: cover;
+}
+
+.container-quem .card2.escultura{
+    background-size: cover;
+}
+
 .container-quem .text-area-quem{
     height: 90%;
     width: 45%;
@@ -612,6 +712,7 @@ input[type="range"] {
 
 .professores{
     padding: 1% 5% 0% 5%;
+    height: auto;
 }
 
 .professores p{
@@ -626,6 +727,11 @@ input[type="range"] {
     height: 58vh;
     display: flex;
     justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.fotoprofs.profsilust{
+    margin-bottom: 65vh;
 }
 
 .prof1{
@@ -639,6 +745,10 @@ input[type="range"] {
     gap: 8px;
 }
 
+.prof1.iniDes{
+    margin: auto;
+}
+
 .fotoprof1{
     width: 40%;
     height: 100%;
@@ -648,6 +758,73 @@ input[type="range"] {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: 140%;
+}
+
+.fotoprof1.escultura{
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    border-radius: 50px;
+    background-image: url(images/escultura/AVATAR\ ATHILA.jpg);
+    background-position: 55% 40%;
+    background-repeat: no-repeat;
+    background-size: 140%;
+}
+
+.prof1.escultura{
+    margin: auto;
+}
+
+.fotoprof1.iniDes{
+    background-image: url(images/artCrianca/Maria\ Rita\ AVATAR.jpg);
+}
+
+.fotoprof1.desCient{
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    border-radius: 50px;
+    background-image: url(images/ilustCient/VIVIAN\ AVATAR.jpeg);
+    background-position: 55% 50%;
+    background-repeat: no-repeat;
+    background-size: 160%;
+}
+
+.fotoprof1.manga{
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    border-radius: 50px;
+    background-image: url(images/manga/AVATAR\ LAYLA.jpg);
+    background-position: 55% 50%;
+    background-repeat: no-repeat;
+    background-size: 175%;
+}
+
+.fotoprof2.manga{
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    border-radius: 50px;
+    background-image: url(images/manga/AVATAR\ GISELA.jpg);
+    background-position: 10% 50%;
+    background-repeat: no-repeat;
+    background-size: 130%;
+}
+
+
+.prof1.aquar{
+    margin: auto;
+    
+}
+
+.prof1.artCrianca{
+    margin: auto;
+    
+}
+
+.prof1.desCient{
+    margin: auto;
 }
 
 .textoprof{
@@ -679,12 +856,110 @@ input[type="range"] {
     gap: 8px;
 }
 
+.prof3{
+    position: relative;
+    border-radius: 50px;
+    width: 46%;
+    height: 100%;
+    background-color: #1E1E1E;
+    display: flex;
+    padding: .5% .5%;
+    gap: 8px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.fotoprof3{
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    border-radius: 50px;
+    background-image: url(images/cursosimg1.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 140%;
+}
+
 .fotoprof2{
     width: 40%;
     height: 100%;
     justify-content: center;
     border-radius: 50px;
     background-image: url(images/cursosimg1.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 140%;
+}
+.fotoprof1.aquar{
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    border-radius: 50px;
+    background-image: url(images/aquarela/Cópia\ de\ AVATAR\ GISELA.jpg);
+    background-position: 70% 50%;
+    background-repeat: no-repeat;
+    background-size: 175%;
+}
+
+.fotoprof1.hq{
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    border-radius: 50px;
+    background-image: url(images/hq/AVATAR\ BRUNO.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 140%;
+}
+.fotoprof2.hq{
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    border-radius: 50px;
+    background-image: url(images/hq/AVATAR\ ATHILA.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 140%;
+}
+
+.fotoprof1.ilut{
+    background-image: url(images/ilust/AVATAR\ BRUNO.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 140%;
+}
+.fotoprof2.ilut{
+    background-image: url(images/ilust/AVATAR\ ATHILA.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 140%;
+}
+.fotoprof1.artCrianca{
+    background-image: url(images/artCrianca/Maria\ Rita\ AVATAR.jpg);
+}
+
+.fotoprof1.desenArq{
+    background-image: url(images/desenArq/AVATAR\ FERNANDA.jpeg);
+}
+.fotoprof2.desenArq{
+    background-image: url(images/desenArq/Camila\ Torato\ avatar.jpg);
+}
+
+.fotoprof3.ilut{
+    background-image: url(images/ilust/Auto\ RetratoIsrael.jpg);
+    background-position: 24% 60%;
+    background-repeat: no-repeat;
+    background-size: 150%;
+}
+
+.fotoprof1.classc{
+    background-image: url(images/classic/AVATAR\ LAURA.jpeg);
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    background-size: 155%;
+}
+.fotoprof2.classc{
+    background-image: url(images/classic/AVATAR\ GUSTAVO.jpg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: 140%;

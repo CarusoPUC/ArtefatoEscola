@@ -45,6 +45,9 @@
     
         <main>
             <section class="logo-site">
+                <video autoplay muted loop id="myVideo">
+                    <source src="images/videohome.mp4" type="video/mp4">
+                  </video>
                 <div class="interface">
                     <img src="images/logo.png" class="horizontal">
                     <img src="images/logovertical.png" class="vertical">
@@ -105,11 +108,11 @@
             <div class="divcima">
                 <img src="images/logo.png">
                 <div class="contatos-footer">
-                    <img src="images/whatsapp.png">
-                    <img src="images/telegram.png">
-                    <img src="images/instagram.png">
+                    <a href="https://web.whatsapp.com/send?phone=5519992498963"><img src="images/whatsapp.png"></a>
+                    <a href="https://t.me/artefatoescolach"><img src="images/telegram.png"></a>
+                    <a href="https://www.instagram.com/artefatoescola/"><img src="images/instagram.png"></a>
                 </div>
-                <button>Agende uma aula gratuita!</button>
+                <button onClick="agendarAula()">Agende uma aula gratuita!</button>
             </div>
             <hr>
             <div class="divabaixo">
@@ -124,5 +127,6 @@
         </footer>
     </div>
     <script src="mobile-navbar.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

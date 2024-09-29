@@ -197,14 +197,23 @@ header .logo.dois{
 
 section.logo-site{
     padding: 170px; 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/videoplayback.gif);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/videohome.mp4);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     align-items: center;
     align-content: center;
     height: 100vh;
-    background-color: #a8c654;
+    background-color: transparent;
+}
+
+#myVideo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
 }
 
 section.logo-site .interface{
@@ -622,6 +631,17 @@ section.cards-cursos{
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/cursosimg8.jpg);
 }
 
+.curso.curso9{
+    background-position: 30% 40%;
+    background-size: 50vh;
+    background-image: url(images/escultura/escultura2.png);
+}
+
+.curso9:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/escultura/escultura2.png);
+}
+
+
 
 .below{
     position: absolute;
@@ -788,42 +808,62 @@ section.cards-galeria{
 
 .cards-galeria .img1{
     background-position: 50% 100%;
-    background-image: url(images/cursosimg1.jpg);
+    background-image: url(images/galeria/galeria1.png);
 }
 
 .cards-galeria .img2{
     background-position: 50% 100%;
-    background-image: url(images/cursosimg1.jpg);
+    background-image: url(images/galeria/galeria2.png);
 }
 
 .cards-galeria .img3{
     background-position: 50% 100%;
-    background-image: url(images/cursosimg1.jpg);
+    background-image: url(images/galeria/galeria3.jpg);
 }
 
 .cards-galeria .img4{
-    background-position: 50% 100%;
-    background-image: url(images/cursosimg1.jpg);
+    background-position: 50% 70%;
+    background-image: url(images/galeria/galeria4.jpg);
 }
 
 .cards-galeria .img5{
     background-position: 50% 100%;
-    background-image: url(images/cursosimg1.jpg);
+    background-image: url(images/galeria/galeria5.jpg);
 }
 
 .cards-galeria .img6{
     background-position: 50% 100%;
-    background-image: url(images/cursosimg1.jpg);
+    background-image: url(images/galeria/galeria6.jpg);
 }
 
 .cards-galeria .img7{
     background-position: 50% 100%;
-    background-image: url(images/cursosimg1.jpg);
+    background-image: url(images/galeria/galeria7.jpg);
 }
 
 .cards-galeria .img8{
     background-position: 50% 100%;
-    background-image: url(images/cursosimg1.jpg);
+    background-image: url(images/galeria/galeria8.jpg);
+}
+
+.cards-galeria .img9{
+    background-position: 50% 100%;
+    background-image: url(images/galeria/galeria9.jpg);
+}
+
+.cards-galeria .img10{
+    background-position: 50% 100%;
+    background-image: url(images/galeria/galeria10.jpg);
+}
+
+.cards-galeria .img11{
+    background-position: 50% 100%;
+    background-image: url(images/galeria/galeria11.jpg);
+}
+
+.cards-galeria .img12{
+    background-position: 50% 100%;
+    background-image: url(images/galeria/galeria12.jpg);
 }
 
 .galeria .overlay{

@@ -54,28 +54,30 @@
                     <div class="texto">
                         <h1>ARTE PARA CRIANÇA</h1>
                         <h2>Curso Presencial e Online</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim ultrices lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi aliquam metus dui, ac tempus metus facilisis sed. Vestibulum efficitur volutpat urna non tristique. Curabitur scelerisque risus quis bibendum facilisis. Cras dignissim vestibulum ullamcorper. Nullam et suscipit urna. Suspendisse laoreet nec nulla quis aliquet. In nec ante volutpat, sagittis arcu fermentum, placerat nibh. Nam erat neque, ultricies finibus est sed, pharetra blandit lectus.</p>                          
+                        <p>Com apenas 4 alunos por turma, o curso de Arte para Crianças trabalha com o desenvolvimento das habilidades básicas desta faixa etária: coordenação motora, criatividade, introdução à teoria da cor, planejamento e espacialidade.
+                            São trabalhados vários elementos da arte, como desenho, pintura, história da arte, escultura e princípios de animação, além de outras modalidades e materiais. É um curso que não só explora a criatividade, mas também trabalha a técnica.
+                            </p>                          
                     </div>
                     <div class="info">
                         <div class="horas">
                             <i class="bi bi-clock"></i>
                             <div class="titequant">
                                 <p class="titulo">CARGA HORÁRIA</p>
-                                <P>80 HORAS</P>
+                                <P>INDEFINIDA</P>
                             </div>
                         </div>
                         <div class="nivel">
                             <i class="bi bi-graph-up"></i>
                             <div class="titequant">
                                 <p class="titulo">NIVEL EXIGIDO</p>
-                                <P>INTERMEDIARIO</P>
+                                <P>INICIANTE</P>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="video-div">
-                    <div class="video-container paused" data-volume-level="high">
-                        <img class="thumbnail-img">
+                    <div class="video-container paused artCrianca" data-volume-level="high">
+                        <!--<img class="thumbnail-img">
                         <div class="videos-control-container">
                             <div class="timeline-container">
                                 <div class="timeline">
@@ -111,6 +113,7 @@
                             <i class="bi bi-play-fill"></i>
                         </button>
                         <video src="images/teste.mp4"></video>
+                        -->
                     </div>
                 </div>
             </div>
@@ -128,7 +131,7 @@
                 <div class="text-area-quem">
                     <div class="text">
                         <h1>PARA QUEM É<BR>ESTE CURSO?</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim ultrices lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi aliquam metus dui, ac tempus metus facilisis sed. Vestibulum efficitur volutpat urna non tristique. Curabitur scelerisque risus quis bibendum facilisis. Cras dignissim vestibulum ullamcorper. Nullam et suscipit urna. Suspendisse laoreet nec nulla quis aliquet. In nec ante volutpat, sagittis arcu fermentum, placerat nibh. Nam erat neque, ultricies finibus est sed, pharetra blandit lectus.</p>                          
+                        <p>Destinado a alunos de 7 a 10 anos, este curso desenvolve as habilidades inerentes da idade e que vão ajudar o aluno a escolher, mais para frente, um curso específico na área artística. </p>                          
                     </div>
                 </div>
             </div>
@@ -136,23 +139,16 @@
         <section class="professores">
             <p>CONHEÇA OS<BR>PROFESSORES</p>
             <div class="fotoprofs">
-                <div class="prof1">
-                    <div class="fotoprof1"></div>
+                <div class="prof1 artCrianca">
+                    <div class="fotoprof1 artCrianca"></div>
                     <div class="textoprof">
-                        <h1>BRUNO BÜLL</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim ultrices lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi aliquam metus dui, ac tempus metus facilisis sed. Vestibulum efficitur volutpat urna non tristique. Curabitur scelerisque risus quis bibendum facilisis. Cras dignissim vestibulum ullamcorper. Nullam et suscipit urna. Suspendisse laoreet nec nulla quis aliquet. In nec ante volutpat, sagittis arcu fermentum, placerat nibh. Nam erat neque, ultricies finibus est sed, pharetra blandit lectus.</p>                          
-                    </div>
-                </div>
-                <div class="prof2">
-                    <div class="fotoprof2"></div>
-                    <div class="textoprof">
-                        <h1>ATHILA FABBIO</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim ultrices lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi aliquam metus dui, ac tempus metus facilisis sed. Vestibulum efficitur volutpat urna non tristique. Curabitur scelerisque risus quis bibendum facilisis. Cras dignissim vestibulum ullamcorper. Nullam et suscipit urna. Suspendisse laoreet nec nulla quis aliquet. In nec ante volutpat, sagittis arcu fermentum, placerat nibh. Nam erat neque, ultricies finibus est sed, pharetra blandit lectus.</p>                          
+                        <h1>MARIA RITA TARDELLI</h1>
+                        <p>Cursando Licenciatura em Artes Visuais e tem formação em Desenho Clássico. Trabalha dando aula para crianças há 4 anos, desenvolvendo trabalhos em  diversas áreas, como desenho, pintura, escultura e artes manuais.</p>                          
                     </div>
                 </div>
             </div>
         </section>
-        <section class="agendaraula">
+        <section class="agendaraula" onClick="agendarAula()">
             <button>QUERO AGENDAR UMA AULA!</button>
         </section>
 
@@ -160,11 +156,11 @@
             <div class="divcima">
                 <img src="images/logo.png">
                 <div class="contatos-footer">
-                    <img src="images/whatsapp.png">
-                    <img src="images/telegram.png">
-                    <img src="images/instagram.png">
+                    <a href="https://web.whatsapp.com/send?phone=5519992498963"><img src="images/whatsapp.png"></a>
+                    <a href="https://t.me/artefatoescolach"><img src="images/telegram.png"></a>
+                    <a href="https://www.instagram.com/artefatoescola/"><img src="images/instagram.png"></a>
                 </div>
-                <button>Agende uma aula gratuita!</button>
+                <button onClick="agendarAula()">Agende uma aula gratuita!</button>
             </div>
             <hr>
             <div class="divabaixo">
@@ -177,6 +173,11 @@
                 <p class="desenv"><a href="https://www.linkedin.com/in/marcos-de-castro-santos-junior/">Desenvolvido por<br>Marcos de Castro</a></p>
             </div>
         </footer>
+        <a href="https://web.whatsapp.com/send?phone=5519992498963">
+            <div class="btnWhats">
+            <img src="images/whatsapp.png">
+        </div>
+        </a>
     </main>
 </div>
 <script src="mobile-navbar.js"></script>
