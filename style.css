@@ -1670,6 +1670,16 @@ section.cards-cursos{
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/cursosimg8.jpg);
 }
 
+.curso.curso9{
+    background-position: 30% 35%;
+    background-size: 50vh;
+    background-image: url(images/escultura/escultura2.png);
+}
+
+.curso9:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/escultura/escultura2.png);
+}
+
 
 .below{
     position: absolute;
