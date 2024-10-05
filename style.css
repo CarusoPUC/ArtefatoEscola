@@ -641,6 +641,16 @@ section.cards-cursos{
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/escultura/escultura2.png);
 }
 
+.curso.curso10{
+    background-position: 45% 40%;
+    background-size: 50vh;
+    background-image: url(images/iniDes/iniDes1.jpg);
+}
+
+.curso10:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/iniDes/iniDes1.jpg);
+}
+
 
 
 .below{
@@ -1842,45 +1852,7 @@ section.cards-galeria{
     background-color: #a8c654;
 }
 
-.cards-galeria .img1{
-    background-position: 50% 100%;
-    background-image: url(images/cursosimg1.jpg);
-}
 
-.cards-galeria .img2{
-    background-position: 50% 100%;
-    background-image: url(images/cursosimg1.jpg);
-}
-
-.cards-galeria .img3{
-    background-position: 50% 100%;
-    background-image: url(images/cursosimg1.jpg);
-}
-
-.cards-galeria .img4{
-    background-position: 50% 100%;
-    background-image: url(images/cursosimg1.jpg);
-}
-
-.cards-galeria .img5{
-    background-position: 50% 100%;
-    background-image: url(images/cursosimg1.jpg);
-}
-
-.cards-galeria .img6{
-    background-position: 50% 100%;
-    background-image: url(images/cursosimg1.jpg);
-}
-
-.cards-galeria .img7{
-    background-position: 50% 100%;
-    background-image: url(images/cursosimg1.jpg);
-}
-
-.cards-galeria .img8{
-    background-position: 50% 100%;
-    background-image: url(images/cursosimg1.jpg);
-}
 
 .galeria .overlay{
     position: absolute;
@@ -2198,6 +2170,16 @@ section.contato{
 
 .direita form .btnEnviar:active{
     background-color: #1E1E1E;
+}
+
+.curso.curso10{
+    background-position: 45% 40%;
+    background-size: 40vh;
+    background-image: url(images/iniDes/iniDes1.jpg);
+}
+
+.curso10:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/iniDes/iniDes1.jpg);
 }
 
 }

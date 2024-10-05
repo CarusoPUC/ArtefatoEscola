@@ -59,6 +59,12 @@
 
 }
 
+.logo .interface.iniDes{
+    background-image: url(images/iniDes/iniDes2.jpg);
+    background-position: 50% 30%;
+
+}
+
 .desc{
     display: flex;
     height: 60vh;
@@ -155,6 +161,12 @@
     background-image: url(images/escultura/escultura1.jpg);
     background-size: 100%;
     background-position: 57% 7%;
+}
+
+.video-container.iniDes{
+    background-image: url(images/iniDes/iniDes2.jpg);
+    background-size: 100%;
+    background-position: 57% 30%;
 }
 
 .video-container video{
@@ -1224,5 +1236,24 @@ input[type="range"] {
     }
     .professores.dprof{
         height: 85vh;
+    }
+    .fotoprof1.aqua{
+        background-size: 180%;
+    }
+    .fotoprof2.classc{
+        background-size: 180%;
+    }
+    .fotoprof1.desCient{
+        background-size: 180%;
+    }
+    .fotoprof1.manga{
+        background-size: 180%;
+    }
+    .fotoprof2.manga{
+        background-size: 180%;
+    }
+    .fotoprof1.escultura{
+        background-size: 180%;
+        background-position: 40% 30%;
     }
 }
