@@ -1104,7 +1104,7 @@ input[type="range"] {
     .fotoprofs{
         margin-top: 2%;
         width: 100%;
-        height: 35vh;
+        height: 36vh;
         justify-content: space-between;
         gap: 4%;
     }
@@ -1128,7 +1128,27 @@ input[type="range"] {
         background-image: url(images/cursosimg1.jpg);
         background-position: 50% 50%;
         background-repeat: no-repeat;
-        background-size: 140%;
+        background-size: 170%;
+    }
+
+    .fotoprof1.hq{
+        background-size: 160%;
+    }
+    .fotoprof2.hq{
+        background-size: 160%;
+    }
+    .fotoprof1.ilut{
+        background-size: 160%;
+    }
+    .fotoprof2.ilut{
+        background-size: 160%;
+    }
+    .prof3{
+        margin-top: 4px;
+        width: 100%;
+    }
+    .fotoprof3.ilut{
+        background-size: 185%;
     }
     
     .textoprof{
@@ -1169,7 +1189,7 @@ input[type="range"] {
         background-image: url(images/cursosimg1.jpg);
         background-position: 50% 50%;
         background-repeat: no-repeat;
-        background-size: 140%;
+        background-size: 170%;
     }
     
     .agendaraula{
@@ -1194,5 +1214,15 @@ input[type="range"] {
         height: 34%;
         border-radius: 20px;
         cursor: pointer;
+    }
+    .agendaraula.ilust{
+        padding-top: 20%;
+        height: 45vh;
+    }
+    .agendaraula.ilust button{
+        height: 30%;
+    }
+    .professores.dprof{
+        height: 85vh;
     }
 }
