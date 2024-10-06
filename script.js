@@ -152,5 +152,5 @@ function handleTimelineUpdate(e){
 }
 
 function agendarAula() {
-    window.location.href = "https://web.whatsapp.com/send?phone=5519992498963";
+    window.location.href = "https://wa.me/5519992498963";
 }
