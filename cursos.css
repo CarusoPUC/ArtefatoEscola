@@ -24,8 +24,8 @@
 }
 
 .logo .interface.classico{
-    background-image: url(images/fundoclassc.jpg);
-    background-position: 50% 37%;
+    background-image: url(images/classic/classc1.jpg);
+    background-position: 50% 30%;
 }
 
 .logo .interface.aquarela{
@@ -40,12 +40,12 @@
 
 .logo .interface.ilustCient{
     background-image: url(images/fundoilustCient.jpg);
-    background-position: 50% 37%;
+    background-position: 50% 25%;
 }
 
 .logo .interface.manga{
-    background-image: url(images/fundomanga.jpg);
-    background-position: 50% 34%;
+    background-image: url(images/manga/ARTE\ GISELA\ 2.jpg);
+    background-position: 50% 32%;
 }
 
 .logo .interface.artCrianca{
@@ -60,8 +60,8 @@
 }
 
 .logo .interface.iniDes{
-    background-image: url(images/iniDes/iniDes2.jpg);
-    background-position: 50% 30%;
+    background-image: url(images/iniDes/card1ini.jpg);
+    background-position: 50% 65%;
 
 }
 
@@ -120,8 +120,8 @@
 
 .video-container.videoilust{
     background-image: url(images/ilust/videoilust.jpg);
-    background-size: 100%;
-    background-position: 50% 10%;
+    background-size: cover;
+    background-position: 50% 45%;
 }
 .video-container.aquar{
     background-image: url(images/aquarela/aqua2.jpg);
@@ -134,25 +134,25 @@
     background-position: 57% 40%;
 }
 .video-container.classc{
-    background-image: url(images/classic/classc1.jpg);
-    background-size: 100%;
-    background-position: 57% 20%;
+    background-image: url(images/classic/fundoclassc.jpeg);
+    background-size: cover;
+    background-position: 57% 40%;
 }
 
 .video-container.desArq{
-    background-image: url(images/desenArq/desenArq2.jpg);
-    background-size: 100%;
-    background-position: 57% 7%;
+    background-image: url(images/desenArq/desenArq2.jpeg);
+    background-size: cover;
+    background-position: 50% 7%;
 }
 
 .video-container.desCient{
-    background-image: url(images/ilustCient/ilustCient1.png);
-    background-size: 100%;
-    background-position: 57% 7%;
+    background-image: url(images/ilustCient/ilustCient1.jpeg);
+    background-size: 120%;
+    background-position: 40% 17%;
 }
 
 .video-container.manga{
-    background-image: url(images/manga/ARTE\ GISELA\ 3.jpg);
+    background-image: url(images/manga/manga1.jpg);
     background-size: 100%;
     background-position: 57% 45%;
 }
@@ -606,11 +606,19 @@ input[type="range"] {
 }
 
 .card1.ilust{
-    background-image: url(images/ilust/ilust1.jpg);
+    background-image: url(images/ilust/bruno.jpg);
 }
 
 .card2.ilust{
     background-image: url(images/ilust/ilust2.jpg);
+}
+
+.card1.iniDes{
+    background-image: url(images/iniDes/card2ini.jpg);
+}
+
+.card2.iniDes{
+    background-image: url(images/iniDes/fundoini.jpg);
 }
 
 .card1.classc{
@@ -632,6 +640,7 @@ input[type="range"] {
 .card2.aqua{
     background-image: url(images/aquarela/ARTE2.jpg);
     background-size: 190%;
+    background-position: 50% 0%;
 }
 
 .card1.desArq{
@@ -639,19 +648,19 @@ input[type="range"] {
 }
 
 .card2.desArq{
-    background-image: url(images/desenArq/ARTE\ FERNANDA2.jpg);
+    background-image: url(images/desenArq/ARTE\ FERNANDA2.jpeg);
 }
 
 .card1.ilustCient{
-    background-image: url(images/ilustCient/Arte\ Vivian.jpg);
+    background-image: url(images/ilustCient/Arte\ Vivian.jpeg);
 }
 
 .card2.ilustCient{
-    background-image: url(images/ilustCient/Arte\ Vivian2.jpg);
+    background-image: url(images/ilustCient/Arte\ Vivian2.jpeg);
 }
 
 .card1.manga{
-    background-image: url(images/manga/ARTE\ GISELA\ 2.jpg);
+    background-image: url(images/manga/manga2.jpg);
     background-position: 10% 50%;
 }
 
@@ -695,6 +704,14 @@ input[type="range"] {
 .container-quem .card2.escultura{
     background-size: cover;
 }
+
+.container-quem .card2.aqua{
+    background-size: cover;
+} 
+
+.container-quem .card2.ilustCient{
+    background-size: cover;
+} 
 
 .container-quem .text-area-quem{
     height: 90%;
@@ -907,10 +924,10 @@ input[type="range"] {
     height: 100%;
     justify-content: center;
     border-radius: 50px;
-    background-image: url(images/aquarela/Cópia\ de\ AVATAR\ GISELA.jpg);
-    background-position: 70% 50%;
+    background-image: url(images/manga/AVATAR\ GISELA.jpg);
+    background-position: 10% 50%;
     background-repeat: no-repeat;
-    background-size: 175%;
+    background-size: cover;
 }
 
 .fotoprof1.hq{
@@ -1006,9 +1023,9 @@ input[type="range"] {
 }
 
 @media (max-width: 1279px) {
-
     .desc{
         flex-direction: column;
+        height: 68vh;
     }
     .logo .interface{
         height: 30vh;
@@ -1053,7 +1070,8 @@ input[type="range"] {
         justify-content: center;
         margin-inline: auto;
         padding: 0.49cqmin 0.2cqmin;
-        margin-top: 20%;
+        margin-top: 10%;
+        
     }
     .container-quem{
         position: relative;
@@ -1092,7 +1110,7 @@ input[type="range"] {
     
     .text p{
         margin-top: 3%;
-        font-size: 3.5cqmin;
+        font-size: 2.5vw;
         text-align: left;
     }
     .container-quem .text-area-quem{
@@ -1100,6 +1118,10 @@ input[type="range"] {
         width: 45%;
         padding: 0;
     }
+    .container-quem .text-area-quem>p{
+        font-size: 1vw;
+    }
+
     .professores{
         margin-top: 5%;
         padding: 1% 5% 0% 5%;
@@ -1176,7 +1198,7 @@ input[type="range"] {
     
     .textoprof p{
         color: white;
-        font-size: 2.6cqmin;
+        font-size: 1.9vw;
         font-weight: 400;
         margin-top: 2cqmin;
         text-align: left;

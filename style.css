@@ -561,11 +561,11 @@ section.cards-cursos{
 
 .cards-cursos .curso1{
     background-position: 50% 100%;
-    background-image: url(images/cursosimg1.jpg);
+    background-image: url(images/cursosimg1.png);
 }
 
 .curso1:hover{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/cursosimg1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/cursosimg1.png);
 }
 
 .curso2{
@@ -585,11 +585,11 @@ section.cards-cursos{
 }
 
 .curso.curso4{
-    background-image: url(images/cursosimg4.png);
+    background-image: url(images/cursosimg4.jpg);
 }
 
 .curso4:hover{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/cursosimg4.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/cursosimg4.jpg);
 }
 
 .curso.curso5{
@@ -604,11 +604,11 @@ section.cards-cursos{
 
 .curso.curso6{
     background-position: 37% 0%;
-    background-image: url(images/cursosimg6.png);
+    background-image: url(images/galeria/galeria12.jpg);
 }
 
 .curso6:hover{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/cursosimg6.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/galeria/galeria12.jpg);
 }
 
 .curso.curso7{
@@ -1610,11 +1610,11 @@ section.cards-cursos{
 
 .cards-cursos .curso1{
     background-position: 50% 100%;
-    background-image: url(images/cursosimg1.jpg);
+    background-image: url(images/cursosimg1.png);
 }
 
 .curso1:hover{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/cursosimg1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/cursosimg1.png);
 }
 
 .curso2{
@@ -1634,11 +1634,11 @@ section.cards-cursos{
 }
 
 .curso.curso4{
-    background-image: url(images/cursosimg4.png);
+    background-image: url(images/cursosimg4.jpg);
 }
 
 .curso4:hover{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/cursosimg4.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/cursosimg4.jpg);
 }
 
 .curso.curso5{
@@ -1653,11 +1653,11 @@ section.cards-cursos{
 
 .curso.curso6{
     background-position: 37% 0%;
-    background-image: url(images/cursosimg6.png);
+    background-image: url(images/galeria/galeria12.jpg);
 }
 
 .curso6:hover{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/cursosimg6.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/galeria/galeria12.jpg);
 }
 
 .curso.curso7{
