@@ -30,7 +30,8 @@
 
 .logo .interface.aquarela{
     background-image: url(images/fundoaqua.jpg);
-    background-position: 50% 27%;
+    background-position: 60% 60%;
+    background-size: 120%;
 }
 
 .logo .interface.desenArq{
@@ -44,8 +45,8 @@
 }
 
 .logo .interface.manga{
-    background-image: url(images/manga/ARTE\ GISELA\ 2.jpg);
-    background-position: 50% 32%;
+    background-image: url(images/manga/manga1.jpg);
+    background-position: 20% 30%;
 }
 
 .logo .interface.artCrianca{
@@ -152,9 +153,9 @@
 }
 
 .video-container.manga{
-    background-image: url(images/manga/manga1.jpg);
+    background-image: url(images/manga/manga2.jpg);
     background-size: 100%;
-    background-position: 57% 45%;
+    background-position: 57% 15%;
 }
 
 .video-container.escultura{
@@ -635,11 +636,13 @@ input[type="range"] {
 
 .card1.aqua{
     background-image: url(images/aquarela/ARTE.jpg);
+    background-size: 155%;
+    background-position: 55% 50%;
 }
 
 .card2.aqua{
     background-image: url(images/aquarela/ARTE2.jpg);
-    background-size: 190%;
+    background-size: 220%;
     background-position: 50% 0%;
 }
 
@@ -660,8 +663,8 @@ input[type="range"] {
 }
 
 .card1.manga{
-    background-image: url(images/manga/manga2.jpg);
-    background-position: 10% 50%;
+    background-image: url(images/manga/ARTE\ GISELA\ 2.jpg);
+    background-position: 10% 40%;
 }
 
 .card2.manga{
@@ -706,7 +709,8 @@ input[type="range"] {
 }
 
 .container-quem .card2.aqua{
-    background-size: cover;
+    background-size: 140%;
+    background-position: 48% 62%;
 } 
 
 .container-quem .card2.ilustCient{

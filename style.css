@@ -525,8 +525,9 @@ section.cards-cursos{
     align-items: center;
     align-self: center;
     justify-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 14vh 5vh;
+    position: relative;
 }
 
 .cards-cursos .curso{
@@ -541,6 +542,28 @@ section.cards-cursos{
     background-position: 50% 0%;
     position: relative;
     overflow: visible;
+}
+
+.plantas.curso{
+    position: absolute;
+    display: flex;
+    left: 0;
+    bottom: 95%;
+    width: 100%;
+    z-index: -5;
+}
+
+.plantas.curso .direitap{
+    position: absolute;
+    display: flex;
+    right: 0;
+    width: 100%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.plantas.curso img{
+    filter: brightness(0) saturate(100%) invert(38%) sepia(11%) saturate(1882%) hue-rotate(68deg) brightness(96%) contrast(89%);
 }
 
 @media (min-width: 120vh) {
@@ -651,6 +674,15 @@ section.cards-cursos{
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/iniDes/iniDes1.jpg);
 }
 
+.cards-cursos .curso10 {
+    grid-column: 2 / span 1; /* Centraliza na segunda coluna */
+}
+
+@media (max-width: 768px) {
+    .cards-cursos .curso10 {
+        grid-column: 1 / -1; /* Centraliza completamente em telas menores */
+    }
+}
 
 
 .below{
@@ -837,7 +869,8 @@ section.cards-galeria{
 }
 
 .cards-galeria .img5{
-    background-position: 50% 100%;
+    background-position: 45% 50%;
+    background-size: 170%;
     background-image: url(images/galeria/galeria5.jpg);
 }
 
@@ -1690,7 +1723,6 @@ section.cards-cursos{
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/escultura/escultura2.png);
 }
 
-
 .below{
     position: absolute;
     top: -1.1%;
@@ -2180,6 +2212,16 @@ section.contato{
 
 .curso10:hover{
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/iniDes/iniDes1.jpg);
+}
+
+.cards-galeria .img5{
+    background-position: 45% 30%;
+    background-size: 180%;
+    background-image: url(images/galeria/galeria5.jpg);
+}
+
+.plantas.curso{
+    display: none;
 }
 
 }
